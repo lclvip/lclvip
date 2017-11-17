@@ -57,7 +57,7 @@
   * [光环Act 培训笔记](blog/0learn/aura-acp-training.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
-  * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](/blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
-  * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md) 
+  * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](/blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf)
+  * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md)
   
   
