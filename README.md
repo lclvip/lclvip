@@ -1,15 +1,23 @@
 # https://liminany.github.io/m
 记录生活、学习、工作上的一些心得体会，主要以笔记的形式记录
 
+## [进入首页](https://liminany.github.io/m)
 
-[进入首页](https://liminany.github.io/m)
+## 关于本站点
+ 采用MDWIKI 搭建，100%纯静态资源，不依赖任何服务端技术,
 
+- [mdwiki 帮助文档](https://dynalon.github.io/mdwiki/#!tutorials/github.md)
+- [mdwiki 仓库地址](https://github.com/Dynalon/mdwiki/)
 
-[关于本站点]
+## 站点创建步骤
+ - 创建github 仓库
+ - 从本站获取四个文件【config.json、index.html、index.md、navigation.md】
+ - 创建目录 site,在目录中添加md文件，可以规划一下自己的目录结构
+ - 修改navigation.md站点导航文件内容，规划站点的导航
+ - 推送到github
+ - 进入自己 github 仓库,进入 Setting -> GitHub Pages-> Source 选择主分支保存
 
-
-采用MDWIKI 搭建，100%纯静态资源，不依赖任何服务端技术(https://dynalon.github.io/mdwiki/#!tutorials/github.md)
-
+**就是这么简单，在本地用Notedpad++ 或者是VS Code编辑好MD文件，推送，站点立马更新好了！！！**
 
 ## 最近更新内容
 
