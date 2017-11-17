@@ -84,6 +84,8 @@
 
 [gimmick:themechooser](Change Theme)
 
+[查看本站源码](https://github.com/liminany/m/)
+
 <!--
 [gimmick:Disqus](limin-mblogs)
 -->
