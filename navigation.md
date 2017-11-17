@@ -35,13 +35,13 @@
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
   * # Acp培训   
-  * [光环Act 培训笔记](blog/0learn/aura-acp-training.md)
+  * [光环Act 培训笔记](blog/0learn/2016-6-aura-acp-training.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   - - - -
   * # 敏捷实践
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
-  * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](/blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
-  * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-Ninetowns-从问题出发-我的内部分享.2016-09.md) 
+  * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
+  * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md) 
   - - - -
   * # 心理学
   * [人生](blog/xingli/notfound.md)
@@ -54,19 +54,19 @@
   * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
   
   * # 生活中的一切
-  * [影视列表](1life/movie.md)
-  * [工具或小技巧](1life/tools.md)
+  * [影视列表](blog/1life/movie.md)
+  * [工具或小技巧](blog/1life/tools.md)
 
 [读书]()
 
   * # 书籍
-  * [新书列表、读书计划、在读书籍、已经读书籍](blog/2books/books.md)
+  * [新书列表、读书计划、在读书籍、已经读书籍](blog/2book/books.md)
   - - - -
   * # 读书笔记   
-  * [碎片化时代](blog/2books/info-fragmentation-age-remark.md)
-  * [比特币读书笔记](blog/2books/bitcom-book-remark.md)
-  * [用户故事地图读书笔记](blog/2books/user-story-remark.md)
-  * [PMI ACP 指定教材 电子版](blog/2books/acp-ebook.md)
+  * [碎片化时代](blog/2book/info-fragmentation-age-remark.md)
+  * [比特币读书笔记](blog/2book/bitcom-book-remark.md)
+  * [用户故事地图读书笔记](blog/2book/user-story-remark.md)
+  * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   
 [游戏]()
 
@@ -77,9 +77,9 @@
 [关于我]()
   
   * [新技术、新产品、新思维、一切新的东西](blog/fresh.md)
-  * [我的疑问](blog/qa.md)
-  * [临时内容存放地](blog/temp.md)
-  * [关于我，我是谁？](blog/about.md)
+  * [我的疑问](blog/9about/qa.md)
+  * [临时内容存放地](blog/9about/temp.md)
+  * [关于我，我是谁？](blog/9about/about.md)
   
 
 [gimmick:themechooser](Change Theme)
