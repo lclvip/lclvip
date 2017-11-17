@@ -1,15 +1,4 @@
-# https://liminany.github.io/m
-记录生活、学习、工作上的一些心得体会，主要以笔记的形式记录
-
-
-[进入首页](https://liminany.github.io/m)
-
-
-[关于本站点]
-
-
-采用MDWIKI 搭建，100%纯静态资源，不依赖任何服务端技术(https://dynalon.github.io/mdwiki/#!tutorials/github.md)
-
+# liminany 内容导航
 
 ## 最近更新内容
 
@@ -50,5 +39,7 @@
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
   * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](/blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
   * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md) 
+  
+  
   
   
