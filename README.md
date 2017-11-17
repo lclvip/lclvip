@@ -60,4 +60,3 @@
   * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf)
   * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md)
   
-  
