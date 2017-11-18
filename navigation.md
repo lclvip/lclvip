@@ -4,13 +4,13 @@
   -- Default theme
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -- [gimmick:theme](flatly)
-  * # 人生
+  * ### 人生
   * [人生十项](1life/notfound.md)
   
-  * # 爱情、婚姻、（原生）家庭、亲子
+  * ### 爱情、婚姻、（原生）家庭、亲子
   * [爱情](1life/notfound.md)
 
-  * # 人际关系
+  * ### 人际关系
   * [人生](1life/movie.md)
   
 -->
@@ -19,7 +19,7 @@
 
 [原创]()
 
-  * # 2017-11
+  * ### 2017-11
   * [DevOps时代的文档](blog/4article/docs-mdwiki.md)
   - - - -
   * [许宜铭《活出自己》读书笔记](http://www.jianshu.com/p/59d84493a3ed)
@@ -29,40 +29,40 @@
   
 [笔记]()
 
-  * # 工作笔记
+  * ###  工作笔记
   * [2017年笔记](blog/0learn/note-work/2017.md)
   * [2016年笔记](blog/0learn/note-work/2016.md) 
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
-  * # Acp培训   
+  * ### Acp培训   
   * [光环Act 培训笔记](blog/0learn/2016-6-aura-acp-training.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   - - - -
-  * # 敏捷实践
+  * ### 敏捷实践
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
   * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
   * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md) 
   - - - -
-  * # 心理学
+  * ### 心理学
   * [人生](blog/xingli/notfound.md)
   
 [生活]()
 
-  * # 生活中的个人笔记
+  * ### 生活中的个人笔记
   * [2017年笔记](blog/0learn/note-personal/2017.md) 
   * [2016-2017笔记](blog/0learn/note-personal/2016-2017.md)  
   * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
   
-  * # 生活中的一切
+  * ### 生活中的一切
   * [影视列表](blog/1life/movie.md)
   * [工具或小技巧](blog/1life/tools.md)
 
 [读书]()
 
-  * # 书籍
+  * ### 书籍
   * [新书列表、读书计划、在读书籍、已经读书籍](blog/2book/books.md)
   - - - -
-  * # 读书笔记   
+  * ### 读书笔记   
   * [碎片化时代](blog/2book/info-fragmentation-age-remark.md)
   * [比特币读书笔记](blog/2book/bitcom-book-remark.md)
   * [用户故事地图读书笔记](blog/2book/user-story-remark.md)
@@ -82,8 +82,9 @@
   * [关于我，我是谁？](blog/9about/about.md)
   
 
-[gimmick:themechooser](Change Theme)
+[gimmick:themechooser](选择皮肤)
 
+[在线编辑](https://prose.io/#liminany/m)
 [查看本站源码](https://github.com/liminany/m/)
 
 <!--
