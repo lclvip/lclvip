@@ -20,6 +20,7 @@
 [原创]()
 
   * ### 2017-11
+  * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档](blog/4article/docs-mdwiki.md)
   - - - -
   * [许宜铭《活出自己》读书笔记](http://www.jianshu.com/p/59d84493a3ed)
