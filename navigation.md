@@ -46,6 +46,9 @@
   - - - -
   * ### 心理学
   * [人生](blog/xingli/notfound.md)
+  - - - -
+  * ### 英语
+  * [2017年 单词](blog/0learn/english/words-2017.md)
   
 [生活]()
 
