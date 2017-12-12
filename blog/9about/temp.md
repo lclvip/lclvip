@@ -1,6 +1,7 @@
 # 临时笔记 乱七八遭的 先放这里
 ## 收集的个人站点
 - [Hacker and Geeker's Way](https://zhaozhiming.github.io/index.html)
+- [livesino微软新闻](http://livesino.net/)
 
 ## 2016-05-15 袁斌 AgileDo 相关资料
 [图灵社区文集：落地敏捷，持续改进]http://www.ituring.com.cn/minibook/426)
