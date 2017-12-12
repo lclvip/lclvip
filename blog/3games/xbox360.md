@@ -135,7 +135,8 @@
  - [使命召唤11：高级战争 3DM轩辕汉化组GOD汉化版 FPS - 已经下-简单模式已通关-汉化不太完整](http://dl.3dmgame.com/201411/51863.html)
  - [波斯王子5：遗忘之沙) 中文 最后一个BOSS没过 解迷动作游戏 开始不太喜欢 后面玩起来挺有劲，打击感不错](http://www.ali213.net/zhuanti/Prince/)
  - [电锯甜心，打到第四节了，超过预期，有一些小游戏，美少女带感 英文 ACT  旋风无资源，三大妈旋风下载缺文件，只能找百度盘了](http://game.ali213.net/thread-4503124-1-1.html)(http://pan.baidu.com/s/1ufYd4#list/path=%2F)
-  
+  - [古墓丽影 崛起，已经通关，任务只完成了60%，最简单的难度，有中文语音，玩起来很带感，剧情不错，有代入感]
+
  - 中文语音游戏：光环、多重阴影、士官长、鬼屋魔影、神鬼寓言：旅途、暗影帝国
  - [野蛮人柯南/战神之王硬  英文 已经下载](http://game.ali213.net/thread-4517153-1-1.html)
  - [维京人：神域之战 Viking: Battle for Asgard 硬盘版GOD,534507E0 英文 已经下](http://game.ali213.net/thread-4630289-1-1.html)	 
