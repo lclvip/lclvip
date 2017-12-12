@@ -74,7 +74,7 @@
   
 [游戏]()
 
-  * [xbox One 游戏主机的一切](blog/3games/xbox360.md)  
+  * [xbox One 游戏主机的一切](blog/3games/xbox1s.md)  
   * [记录一些喜欢的游戏](blog/3games/like-games.md)
   * [xbox360 主机游戏](blog/3games/xbox360.md)  
   * [手柄 游戏](blog/3games/controller-games.md)
