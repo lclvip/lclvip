@@ -3,18 +3,23 @@
 ## 入坑记
 
 ## 相关网站资源和工具
+
+- [xbox 帐号成就中心-港服](https://account.xbox.com/zh-hk/Profile)
+- [xbox 帐号成就中心-国服](https://account.xbox.com/zh-hk/Profile)
+- [微软帐号个人资料修改总入口-包括Xbox资料](https://account.microsoft.com/profile/)
+- [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
+- [官方金会员优惠游戏-港服](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)
+
 - [Xbox游戏比价网站](http://www.xbox-now.com/zh/news)
 - [Xbox早知道，有一个公众号：xbox早知道](http://www.yxzzd.com/)
-- [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
 - [Xbox比价小助手-微信小程序，见下图](https://tieba.baidu.com/p/5455514797)
+
 - [a9vg Xbox](http://bbs.a9vg.com/forum-609-1.html)
 - [百度 Xbox One ](https://tieba.baidu.com/f?kw=xboxonex&ie=utf-8)
 - [Xbox 新手忠告](http://bbs.a9vg.com/thread-5283867-3-1.html)
 
 - [关于这两天的系统更新的游戏出错问题和解决办法](https://tieba.baidu.com/p/5462672051)
 - [吃鸡](https://tieba.baidu.com/p/5470713530)
-
-- [金会员优惠游戏](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav),
 
 
 ![](https://imgsa.baidu.com/forum/w%3D580/sign=375a7bec73f0f736d8fe4c093a54b382/195a56600c33874477c662ef5a0fd9f9d62aa0a5.jpg) 
