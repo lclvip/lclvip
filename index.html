@@ -4497,25 +4497,24 @@ function googlemapsReady() {
     </noscript>
 
     <div id="md-all">
-    </div>
-    <div>
-	    <noscript>Please enable JavaScript to view the comment form powered by <a href="https://commentit.io/">Comm(ent|it)</a></noscript>
-		<div id="commentit"></div>
-		<script type="text/javascript">
-		  /** CONFIGURATION VARIABLES **/
-		  var commentitUsername = 'liminany';
-		  var commentitRepo = 'liminany/m';
-		  var commentitPath = 'index.html';//location.hash.replace('#!','/');
-
-		  /** DON'T EDIT FOLLOWING LINES **/
-		  (function() {
-		      var commentit = document.createElement('script');
-		      commentit.type = 'text/javascript';
-		      commentit.async = true;
-		      commentit.src = 'https://commentit.io/static/embed/dist/commentit.js';
-		      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(commentit);
-		  })();
+	    <div>  
+	    <div id="container"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+		var gitment = new Gitment({
+		  id: location.hash, // 可选。默认为 location.href
+		  owner: 'liminany',
+		  repo: 'm',
+		  oauth: {
+		    client_id: '5bf4665babc03a5c543f',
+		    client_secret: '6d27bd1469d52f97f1b37ce85dd31f208e5f7de0',
+		  },
+		})
+		gitment.render('container')
 		</script>
     </div>
+    </div>
+    
 </body>
 </html>
