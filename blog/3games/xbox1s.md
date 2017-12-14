@@ -52,7 +52,7 @@
 - [XboxOne主机跨服/绑卡教程及各服绑卡信息汇总](https://tieba.baidu.com/p/5280109624?share=9105&fr=share&see_lz=0&sfc=copy&client_type=2&client_version=8.9.8.0&st=1510021369&unique=F36159E84D02924BF15AC00A32D31300&red_tag=3149636983)
 
 ## 最近玩X1的使用经验总结
-（更新中）
+- [想要了解如何使用Xbox Live账号，看这篇文章就够了-- 强烈推荐这编文章](https://zhuanlan.zhihu.com/p/28423148)
 
 ## Xbox One 基础
 
@@ -67,7 +67,7 @@
 - 360 会免游戏如何领取？
 以前360游戏分区，这个区就是live区域的意思，你在哪个区买x1游戏，都没关系，但是领取360会免游戏，或者购买360游戏的时候，服务器会验证你的ip和live区域是否一致。**那要一个港服帐号来领，然后Home、或家庭共享，所以这里要用代理(?)**
 
-- [Xbox Game Pass，可以申请 XGP 14天试用](https://www.xbox.com/zh-HK/games/xbox-game-pass?xr=shellnav)，　[XGP必须知道的事情](http://www.dgtle.com/article-18221-1.html)
+- [Xbox Game Pass，可以申请 XGP 14天试用](https://www.xbox.com/zh-HK/games/xbox-game-pass?xr=shellnav),　[XGP 游戏列表-至12月](http://www.yxzzd.com/9897.html)，　[XGP必须知道的事情](http://www.dgtle.com/article-18221-1.html)
 XGP是今年才推出的游戏租令服务。每个月能免费玩一些游戏，旧的游戏会被替换，现在有一百多款游戏，每月需要 $9.99 的订阅费，另外有些游戏会对XGP有单独的折扣
 
 - [EA Access](https://www.xbox.com/zh-hk/entertainment/xbox-one/live-apps/ea-access)
@@ -85,10 +85,11 @@ XGP是今年才推出的游戏租令服务。每个月能免费玩一些游戏�
     Xbox的跨服买游戏省钱经常能给你节省一半以上的开支.
     跨区买游戏绑定信用卡请固定在阿根廷土耳其俄罗斯等两三个服务器，不要浪费绑定太多低价服务器，每次付款尽量保证24小时内只在一个低价区买
 
-     **推荐美服、港服、俄罗斯服、土耳其、阿根廷、印度，这些区比较便宜**
+     **推荐美服（en-us）、港服、俄罗斯服(ru-RU)、土耳其、阿根廷(es-AR)、印度()，这些区比较便宜**
 
-- 绑定信用卡土耳其服
-大使馆地址 ：Gölgeli Sok. No.34.G.O.P. Ankara. 06700 。电话：0090-312-4360628
+- 绑定信用卡土耳其服，语言代码为：tr-TR
+注意用你的中文名拼音绑定（card name），用来绑定的大使馆地址 ：Gölgeli Sok. No.34.G.O.P. Ankara. 06700 。电话：0090-312-4360628
+先在港服找到要买的游戏，地址是像这样的：microsoft. com/ zh-hk /XXX, 然后用低价服的国家语言代码替换网址里面的zh-hk,然后重新打开页面，就可以购买了。
 
 - [中文游戏汇总](http://www.yxzzd.com/2016.html)
 Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言，因此想要查阅哪些游戏有中文，上面的工具中有.
