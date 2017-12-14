@@ -4512,8 +4512,9 @@ function googlemapsReady() {
 		    client_id: '5bf4665babc03a5c543f',
 		    client_secret: '6d27bd1469d52f97f1b37ce85dd31f208e5f7de0',
 		  },
-		})
-		gitment.render('container')
+		});
+		gitment.render('container');
+		$(".gitment-editor-logout-link").attr("href","#");//fix a 标签中href未定义时，会引起hasMarkdownFileExtension报错的问题
 		</script>
     </div>
 </body>
