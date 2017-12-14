@@ -4502,7 +4502,8 @@ function googlemapsReady() {
       <div>  
 	    <div id="container"></div>
 		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	        //a中添加了href为#
+		<script src="http://docs.devopshub.cn/static/gitment.browser.js"></script>//https://imsun.github.io/gitment/dist/gitment.browser.js
 		<script>
 		var gitment = new Gitment({
 		  id: location.hash, // 可选。默认为 location.href
@@ -4513,7 +4514,8 @@ function googlemapsReady() {
 		    client_secret: '6d27bd1469d52f97f1b37ce85dd31f208e5f7de0',
 		  },
 		});
-		gitment.render('container');
+		$("#md-content").append("<div id='commit-container' class='row' ></div>");	
+		gitment.render('commit-container');
 		$(".gitment-editor-logout-link").attr("href","#");//fix a 标签中href未定义时，会引起hasMarkdownFileExtension报错的问题
 		</script>
     </div>
