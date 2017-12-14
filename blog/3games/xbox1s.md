@@ -64,16 +64,14 @@
 **以下地区金会员比较便宜：1个月捷克，3个月墨西哥，1年巴西**。另外还有一些游戏折扣.听说淘的试用金会员无法联机.
 
 - 国行金会员，目前一直处于预览期，所以免费，国行没有游戏可送（本来就没几个游戏），这个服务只有国行有。国行唯一的好处就是相当于可以免费联机了,出了国就要金会员才可以联机.
-
- - 360 会免游戏如何领取？
+- 360 会免游戏如何领取？
 以前360游戏分区，这个区就是live区域的意思，你在哪个区买x1游戏，都没关系，但是领取360会免游戏，或者购买360游戏的时候，服务器会验证你的ip和live区域是否一致。**那要一个港服帐号来领，然后Home、或家庭共享，所以这里要用代理(?)**
 
-- [Xbox Game Pass，可以申请 XGP 14天试用](https://www.xbox.com/zh-HK/games/xbox-game-pass?xr=shellnav)，　[XGP必须知道的事情](http://www.dgtle.com/article-18221-1.html)(http://www.dgtle.com/article-18221-1.html)
+- [Xbox Game Pass，可以申请 XGP 14天试用](https://www.xbox.com/zh-HK/games/xbox-game-pass?xr=shellnav)，　[XGP必须知道的事情](http://www.dgtle.com/article-18221-1.html)
 XGP是今年才推出的游戏租令服务。每个月能免费玩一些游戏，旧的游戏会被替换，现在有一百多款游戏，每月需要 $9.99 的订阅费，另外有些游戏会对XGP有单独的折扣
 
 - [EA Access](https://www.xbox.com/zh-hk/entertainment/xbox-one/live-apps/ea-access)
-5美元/月或30美元/年，一个月可以免费玩几款游戏，而且其他游戏也有折扣。过了会员，游戏不能免费玩了
-还是建议用港服帐号买，然后Home给国行机器
+5美元/月或30美元/年，一个月可以免费玩几款游戏，而且其他游戏也有折扣。过了会员，游戏不能免费玩了.还是建议用港服帐号买，然后Home给国行机器
 
 - [解锁教程](https://tieba.baidu.com/p/5383794518)
 解锁的好处：可以跨服购买游戏，在切换成国行后继续玩，能联机，但也有些游戏可能运行不起来，只是少部分
