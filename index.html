@@ -4504,7 +4504,7 @@ function googlemapsReady() {
 		<script src="https://docs.devopshub.cn/static/gitment.browser.js"></script>
 		<script>					
 			(function($) {
-				$("#md-content").append("<div id='commit-container' class='row' style='90%' ></div>");
+				//$("#md-content").append("<div id='commit-container' class='row' style='90%' ></div>");
 				var gitment = new Gitment({
 				  id: location.hash, 
 				  owner: 'liminany',
@@ -4515,7 +4515,7 @@ function googlemapsReady() {
 				  },
 				});
 				//$("#md-content").append("<div id='commit-container' class='row' style='90%' ></div>");	
-				gitment.render('commit-container');
+				gitment.render('md-content');
 			}(jQuery));
 		</script>
 	
