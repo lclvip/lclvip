@@ -63,6 +63,12 @@
 默认是银会员，充值可升级金会员，一年大概是3百多左右．其他服有时候有折扣可以关注下，折扣多的时候二百多就可以买到。每个月会有免费游戏，领取后游戏会一下存在，多人联机必须要金会员才行。
 **以下地区金会员比较便宜：1个月捷克，3个月墨西哥，1年巴西**。另外还有一些游戏折扣.听说淘的试用金会员无法联机.
 
+[香港：三个月 159RMB,一年388](https://www.microsoft.com/zh-hk/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+[墨西哥（es-mx）：三个月 120RMB，一年345RMB](https://www.microsoft.com/es-mx/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+[巴西（pt-BR）:三个月 137RMB，一年297](https://www.microsoft.com/pt-BR/store/p/xbox-live-gold/cfq7ttc0k5dj/000G?rtc=1&source=lp)
+[日本（ja-JP）：三个月125RMB,一年315RMB](https://www.microsoft.com/ja-JP/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+try:129 309
+
 - 国行金会员，目前一直处于预览期，所以免费，国行没有游戏可送（本来就没几个游戏），这个服务只有国行有。国行唯一的好处就是相当于可以免费联机了,出了国就要金会员才可以联机.
 - 360 会免游戏如何领取？
 以前360游戏分区，这个区就是live区域的意思，你在哪个区买x1游戏，都没关系，但是领取360会免游戏，或者购买360游戏的时候，服务器会验证你的ip和live区域是否一致。**那要一个港服帐号来领，然后Home、或家庭共享，所以这里要用代理(?)**
@@ -139,10 +145,15 @@ Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言�
 
 - 爷们4 豪华版，战争机器4 Gears of war 土耳其 293.19 RMB 原价无折扣，港服价格 393 RMB
 
-- [无双大蛇2 终极版 国行](https://www.microsoft.com/zh-cn/store/p/%E6%97%A0%E5%8F%8C%E5%A4%A7%E8%9B%87%EF%BC%92-%E7%BB%88%E6%9E%81%E7%89%88/bs96nlsxq6zw)
+- [无双大蛇2 终极版 国行64，已经买](https://www.microsoft.com/zh-cn/store/p/%E6%97%A0%E5%8F%8C%E5%A4%A7%E8%9B%87%EF%BC%92-%E7%BB%88%E6%9E%81%E7%89%88/bs96nlsxq6zw)
+已经玩了两章，感觉这个游戏还不错，就喜欢这类射击游戏，有中文，很流畅，也有任务引导
 
 - [核心重铸 64,支持XPA](https://www.microsoft.com/zh-cn/store/p/%E6%A0%B8%E5%BF%83%E9%87%8D%E9%93%B8/9nblggh1z6fq),　[游戏介绍,XB 独占](http://play.163.com/special/news/recore-review.html)
 这个游戏是第一个购买的，玩了一下还不错，挺喜欢的
+
+- [大神 绝影版-无中文， 土耳其服最低，100RMB左右](https://www.microsoft.com/zh-hk/store/p/okami-hd/c0w6p6n2q4qf)
+STEAM：98RMB，http://store.steampowered.com/app/587620/OKAMI_HD/
+
 
 
 
