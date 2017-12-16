@@ -65,12 +65,12 @@
 
 [香港：三个月 159RMB,一年388](https://www.microsoft.com/zh-hk/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
 [墨西哥（es-mx）：三个月 120RMB，一年345RMB](https://www.microsoft.com/es-mx/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
-[巴西（pt-BR）:三个月 137RMB，一年297](https://www.microsoft.com/pt-BR/store/p/xbox-live-gold/cfq7ttc0k5dj/000G?rtc=1&source=lp)
+[巴西（pt-BR）:三个月 137RMB，一年297](https://www.microsoft.com/pt-BR/store/p/xbox-live-gold/cfq7ttc0k5dj/000G?rtc=1&source=lp) 
 [日本（ja-JP）：三个月125RMB,一年315RMB](https://www.microsoft.com/ja-JP/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
 try:129 309
 
 - 国行金会员，目前一直处于预览期，所以免费，国行没有游戏可送（本来就没几个游戏），这个服务只有国行有。国行唯一的好处就是相当于可以免费联机了,出了国就要金会员才可以联机.
-- 360 会免游戏如何领取？
+- 360 会免游戏如何领取？。
 以前360游戏分区，这个区就是live区域的意思，你在哪个区买x1游戏，都没关系，但是领取360会免游戏，或者购买360游戏的时候，服务器会验证你的ip和live区域是否一致。**那要一个港服帐号来领，然后Home、或家庭共享，所以这里要用代理(?)**
 
 - [Xbox Game Pass，可以申请 XGP 14天试用](https://www.xbox.com/zh-HK/games/xbox-game-pass?xr=shellnav),　[XGP 游戏列表-至12月](http://www.yxzzd.com/9897.html)，　[XGP必须知道的事情](http://www.dgtle.com/article-18221-1.html)
