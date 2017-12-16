@@ -62,12 +62,11 @@
 - [金会员官方介绍](https://www.xbox.com/zh-HK/Live/games-with-gold),　[港服金会员购买地址-国服微软商店](https://www.microsoftstore.com.cn/xboxlivegold?Icid=Xboxcategory_leftbanner_Xboxlivegold)
 默认是银会员，充值可升级金会员，一年大概是3百多左右．其他服有时候有折扣可以关注下，折扣多的时候二百多就可以买到。每个月会有免费游戏，领取后游戏会一下存在，多人联机必须要金会员才行。
 **以下地区金会员比较便宜：1个月捷克，3个月墨西哥，1年巴西**。另外还有一些游戏折扣.听说淘的试用金会员无法联机.
-
-[香港：三个月 159RMB,一年388](https://www.microsoft.com/zh-hk/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
-[墨西哥（es-mx）：三个月 120RMB，一年345RMB](https://www.microsoft.com/es-mx/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
-[巴西（pt-BR）:三个月 137RMB，一年297](https://www.microsoft.com/pt-BR/store/p/xbox-live-gold/cfq7ttc0k5dj/000G?rtc=1&source=lp) 
-[日本（ja-JP）：三个月125RMB,一年315RMB](https://www.microsoft.com/ja-JP/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
-try:129 309
+    [香港：三个月 159RMB,一年388](https://www.microsoft.com/zh-hk/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+    [墨西哥（es-mx）：三个月 120RMB，一年345RMB](https://www.microsoft.com/es-mx/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+    [巴西（pt-BR）:三个月 137RMB，一年297](https://www.microsoft.com/pt-BR/store/p/xbox-live-gold/cfq7ttc0k5dj/000G?rtc=1&source=lp) 
+    [日本（ja-JP）：三个月125RMB,一年315RMB](https://www.microsoft.com/ja-JP/store/p/xbox-live-gold/cfq7ttc0k5dj/000D?rtc=1&source=lp)
+    try:129 309
 
 - 国行金会员，目前一直处于预览期，所以免费，国行没有游戏可送（本来就没几个游戏），这个服务只有国行有。国行唯一的好处就是相当于可以免费联机了,出了国就要金会员才可以联机.
 - 360 会免游戏如何领取？。
