@@ -54,6 +54,13 @@
 ## 最近玩X1的使用经验总结
 - [想要了解如何使用Xbox Live账号，看这篇文章就够了-- 强烈推荐这编文章](https://zhuanlan.zhihu.com/p/28423148)
 
+- [你好电视,看电视的神器，HUHU 低调~](https://www.microsoft.com/zh-hk/store/p/%e4%bd%a0%e5%a5%bd%e7%94%b5%e8%a7%86/9nblggh3zv64)
+
+- [截屏，必须在游戏界面才可以，西瓜键->菜单键->Y 保存图片,X录制](https://support.xbox.com/zh-CN/xbox-one/console/capture-game-clips-and-screenshots)
+有的又说是按两个西瓜键？
+
+- 官方的媒体播放器，可以通过手机投屏放视频节目，即DLNA，我一般用百度网盘手机版投电影
+
 ## Xbox One 基础
 
 - [XPA：Xbox Play anywher 官方介绍](https://www.xbox.com/zh-HK/games/xbox-play-anywhere?xr=shellnav)，　[国行官方XPA游戏汇总](https://www.microsoft.com/zh-cn/store/collections/xboxplayanywheregames)，　[国行玩家可切换港服win10购买的XPA汇总-百度贴吧](https://tieba.baidu.com/p/5137891448?red_tag=2062254705)
