@@ -152,17 +152,19 @@ Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言�
 
 - 爷们4 豪华版，战争机器4 Gears of war 土耳其 293.19 RMB 原价无折扣，港服价格 393 RMB
 
-- [无双大蛇2 终极版 国行64，已经买](https://www.microsoft.com/zh-cn/store/p/%E6%97%A0%E5%8F%8C%E5%A4%A7%E8%9B%87%EF%BC%92-%E7%BB%88%E6%9E%81%E7%89%88/bs96nlsxq6zw)
-已经玩了两章，感觉这个游戏还不错，就喜欢这类射击游戏，有中文，很流畅，也有任务引导
+- [无双大蛇2 终极版 ](https://www.microsoft.com/zh-cn/store/p/%E6%97%A0%E5%8F%8C%E5%A4%A7%E8%9B%87%EF%BC%92-%E7%BB%88%E6%9E%81%E7%89%88/bs96nlsxq6zw)
 
-- [核心重铸 64,支持XPA](https://www.microsoft.com/zh-cn/store/p/%E6%A0%B8%E5%BF%83%E9%87%8D%E9%93%B8/9nblggh1z6fq),　[游戏介绍,XB 独占](http://play.163.com/special/news/recore-review.html)
-这个游戏是第一个购买的，玩了一下还不错，挺喜欢的
+- [核心重铸 64,支持XPA 国行64，已经买](https://www.microsoft.com/zh-cn/store/p/%E6%A0%B8%E5%BF%83%E9%87%8D%E9%93%B8/9nblggh1z6fq),　[游戏介绍,XB 独占](http://play.163.com/special/news/recore-review.html)
+这个游戏是第一个购买的，玩了一下还不错，挺喜欢的。已经玩了两章，感觉这个游戏还不错，就喜欢这类射击游戏，有中文，很流畅，也有任务引导
 
 - [大神 绝影版-无中文， 土耳其服最低，100RMB左右](https://www.microsoft.com/zh-hk/store/p/okami-hd/c0w6p6n2q4qf)
 STEAM：98RMB，http://store.steampowered.com/app/587620/OKAMI_HD/
 
+- [fortnite 堡垒之夜 免费多人联机射击，类似吃鸡模式，卡通风格](https://www.microsoft.com/en-us/store/p/fortnite-battle-royale/bt5p2x999vh2)
+目前未上架[香港和台湾,预购状态](https://www.microsoft.com/zh-tw/store/p/fortnite-battle-royale/bt5p2x999vh2)，需切换到美区才可以下载。据说已经有中文，需要切换系统语言为简体中文
 
-
+- [conan exiles 流放者柯南 开放世界动作生存游戏](https://www.microsoft.com/zh-hk/store/p/conan-exiles-game-preview/c2x6zcnkn2wr)
+目前还处理预览版，已经有繁体中文。支持第一人称和第三人称视角。最低价格是 俄罗斯 214RMB，其次香港 252RMB
 
 ## 其他
 
