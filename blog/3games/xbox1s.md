@@ -62,6 +62,12 @@
 - 官方的媒体播放器，可以通过手机投屏放视频节目，即DLNA，我一般用百度网盘手机版投电影。
 用支持DLNA的APP投屏，会搜索到XboxOne，连上后会安装一个视频播放器。装上后在投一次就可以了看了
 
+- [Xbox App](https://www.xbox.com/zh-CN/windows-10/xbox-app)
+微软官方的Xbox 应用程序，里面包括IOS、Android、Windows各版本，可以用来管理个人资料、添加好友、查看上传的图片和视频，好像还可以查看部分游戏。
+[IOS版地址](https://itunes.apple.com/cn/app/xbox-one-smartglass/id736179781?mt=8)
+[Android安卓版APK,可直接下载，来自QQ应用商店](http://112.29.152.47/imtt.dd.qq.com/16891/BFF474CBCD2D84C25717167D1ACE079F.apk?mkey=5a38b333f53b6f2a&f=4dae&c=0&fsname=com.microsoft.xboxone.smartglass_1712.1212.1909_171212000.apk&csr=1bbd&p=.apk)
+[Android安卓版APK,可直接下载，来自Google应用商店](https://storage.evozi.com/apk/dl/16/09/05/com.microsoft.xboxone.smartglass.apk?h=MbS28mJfWoHu6poMl2qpHA&t=1513661304)
+
 ## Xbox One 基础
 
 - [XPA：Xbox Play anywher 官方介绍](https://www.xbox.com/zh-HK/games/xbox-play-anywhere?xr=shellnav)，　[国行官方XPA游戏汇总](https://www.microsoft.com/zh-cn/store/collections/xboxplayanywheregames)，　[国行玩家可切换港服win10购买的XPA汇总-百度贴吧](https://tieba.baidu.com/p/5137891448?red_tag=2062254705)
