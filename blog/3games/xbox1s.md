@@ -59,7 +59,8 @@
 - [截屏，必须在游戏界面才可以，西瓜键->菜单键->Y 保存图片,X录制](https://support.xbox.com/zh-CN/xbox-one/console/capture-game-clips-and-screenshots)
 有的又说是按两个西瓜键？
 
-- 官方的媒体播放器，可以通过手机投屏放视频节目，即DLNA，我一般用百度网盘手机版投电影
+- 官方的媒体播放器，可以通过手机投屏放视频节目，即DLNA，我一般用百度网盘手机版投电影。
+用支持DLNA的APP投屏，会搜索到XboxOne，连上后会安装一个视频播放器。装上后在投一次就可以了看了
 
 ## Xbox One 基础
 
