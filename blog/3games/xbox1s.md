@@ -31,7 +31,8 @@
 
 - [xbox 帐号Social社交动态页面-港服 ](https://account.xbox.com/zh-hk/Social)
 - [xbox 帐号成就中心-港服](https://account.xbox.com/zh-hk/Profile)
-- [xbox 帐号成就中心-国服](https://account.xbox.com/zh-hk/Profile)
+- [xbox 帐号迁移-建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏](https://live.xbox.com/zh-HK/AccountMigration)
+- [绑定信用卡页面：点新增付款选项](https://account.microsoft.com/billing/payments)
 - [微软帐号个人资料修改总入口-包括Xbox资料](https://account.microsoft.com/profile/)
 - [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
 - [官方金会员优惠游戏-港服](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)
@@ -67,6 +68,24 @@
 [IOS版地址](https://itunes.apple.com/cn/app/xbox-one-smartglass/id736179781?mt=8)
 [Android安卓版APK,可直接下载，来自QQ应用商店](http://112.29.152.47/imtt.dd.qq.com/16891/BFF474CBCD2D84C25717167D1ACE079F.apk?mkey=5a38b333f53b6f2a&f=4dae&c=0&fsname=com.microsoft.xboxone.smartglass_1712.1212.1909_171212000.apk&csr=1bbd&p=.apk)
 [Android安卓版APK,可直接下载，来自Google应用商店](https://storage.evozi.com/apk/dl/16/09/05/com.microsoft.xboxone.smartglass.apk?h=MbS28mJfWoHu6poMl2qpHA&t=1513661304)
+
+#### 目前我是这样玩的：
+- 买回来后，升级系统，大概 1.6G左右的更新
+- 登陆微软live帐号，这个帐号区域是中国，无法迁移。操作过程中会要选择【金会员试用】订阅，注意选择
+- 百事通需要填写手机帐号来注册使用，里面很多内容收费的。
+- 用国区帐号买了一个游戏：核心重铸
+
+- 另外注册了一个新帐号，新帐号区域迁移到香港，用来买外服游戏
+- 主机解锁，并把新帐号添加了家庭共享帐号，只要有一个帐号购买了并下载了游戏，其他家庭帐号都可以玩
+- 新帐号上土耳其服上绑定了信用卡（通过上面提供的网页），并在XB主机上用新帐号登陆，购买一款游戏：命运之手2
+- 解锁后切换到香港区域玩游戏，国区的游戏都能玩，包括无冬之夜和核心重铸，但如果是家庭共享的方式，购买游戏帐号要登陆到主机
+- 下载了几款免费多人联机游戏：堡垒之夜、Happy Way，在外服下无法多人联机。切换到国区后可玩！**也就是说：国行免费金会员的多人联机是根据主机和区域来的，和帐号无关**，想要多人联机又不想买金会员，必须切换到国行来才可行，否则就只能买外服的金会员了（最好是新的港服帐号）
+- 最后，把新帐号设置为常用主机帐号，切回了国服。
+
+- 以后：看看金会员优惠力度，打折的话 可以买一年（外服新帐号）；然后Game Pass和EA的看情况也可以买。
+- 家庭共享和Home的区别：家庭共享需要主帐号常登陆（不用输密码），Home的话登陆一次后不用在登陆这个帐号了（分享游戏的帐号设置为常用主机）
+- 我用两个帐号的原因：一个帐号用来于国行内容，另一个用来玩外服内容。可以用一个帐号（目前没有什么影响），也可以用两个，看喜好。一个帐号简单方便，多个帐号麻烦点，建议喜欢折腾的人
+
 
 ## Xbox One 基础
 
@@ -108,7 +127,7 @@ XGP是今年才推出的游戏租令服务。每个月能免费玩一些游戏�
 
 - 绑定信用卡土耳其服，语言代码为：tr-TR
 注意用你的中文名拼音绑定（card name），用来绑定的大使馆地址 ：Gölgeli Sok. No.34.G.O.P. Ankara. 06700 。电话：0090-312-4360628
-先在港服找到要买的游戏，地址是像这样的：microsoft. com/ zh-hk /XXX, 然后用低价服的国家语言代码替换网址里面的zh-hk,然后重新打开页面，就可以购买了。
+先在港服找到要买的游戏，地址是像这样的：microsoft. com/ zh-hk /XXX, 然后用低价服的国家语言代码替换网址里面的zh-hk,然后重新打开页面，就可以购买了，经测试 网页上买不了游戏。
 
 - [中文游戏汇总](http://www.yxzzd.com/2016.html)
 Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言，因此想要查阅哪些游戏有中文，上面的工具中有.
@@ -144,8 +163,8 @@ Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言�
 ## 关注的游戏
 
 #### 动作类游戏
-- [Hand of Fate Deluxe Edtion，2015 年中发行 2G 多, 土耳其服 91.35 阿根停 83.63 RMB](https://www.microsoft.com/zh-hk/store/p/hand-of-fate/BV0LH18Q1VHW)
-- [Hand of Fate2 2017 12 发行，土耳其服 146.51 RMB](https://www.microsoft.com/zh-hk/store/p/hand-of-fate-2/9pl085q81c5h)
+- [Hand of Fate Deluxe Edtion，命运之手 2015 年中发行 2G 多, 土耳其服 91.35 阿根停 83.63 RMB](https://www.microsoft.com/zh-hk/store/p/hand-of-fate/BV0LH18Q1VHW)
+- [Hand of Fate2 命运之手2 2017 12 发行，土耳其服 146.51 RMB](https://www.microsoft.com/zh-hk/store/p/hand-of-fate-2/9pl085q81c5h)
 [Steam 上价格 90 支持中文 特别好评](http://store.steampowered.com/app/456670/Hand_of_Fate_2/)
 集格斗+角色扮演为一体的全新升级体验！
 游戏完美融合塔罗牌与地下城战斗元素，在这里你走的每一步、做的每一次选择都需要非常小心，看似简单的战斗，却是命运之手的操控。百年前统治世界的发牌人被推翻，世界更换了新的主宰。如今，蛰伏百年的老发牌人邀你一同踏上他的复辟之旅。是命运对强者的认可？还是被人操控的复仇工具？这一切需要你来做决定！驾驶着命运马车开始谱写你的冒险之旅吧！
@@ -167,7 +186,7 @@ Xbox数字版不锁服不锁语言，只不过商店不会标识有哪些语言�
 STEAM：98RMB，http://store.steampowered.com/app/587620/OKAMI_HD/
 
 - [fortnite 堡垒之夜 免费多人联机射击，类似吃鸡模式，卡通风格](https://www.microsoft.com/en-us/store/p/fortnite-battle-royale/bt5p2x999vh2)
-目前未上架[香港和台湾,预购状态](https://www.microsoft.com/zh-tw/store/p/fortnite-battle-royale/bt5p2x999vh2)，需切换到美区才可以下载。据说已经有中文，需要切换系统语言为简体中文
+目前未上架[香港和台湾,预购状态](https://www.microsoft.com/zh-tw/store/p/fortnite-battle-royale/bt5p2x999vh2)，需切换到美区才可以下载。**因为国行PC版被腾讯代理，现在没有中文版了**。安装办法：解锁后切换到美国，搜索游戏，下载安装。然后切换到国服，就可以玩了。在非国服下无法玩多人游戏，因为没金会员
 
 - [conan exiles 流放者柯南 开放世界动作生存游戏](https://www.microsoft.com/zh-hk/store/p/conan-exiles-game-preview/c2x6zcnkn2wr)
 目前还处理预览版，已经有繁体中文。支持第一人称和第三人称视角。最低价格是 俄罗斯 214RMB，其次香港 252RMB
