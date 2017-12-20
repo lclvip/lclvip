@@ -35,10 +35,13 @@
 - [绑定信用卡页面：点新增付款选项](https://account.microsoft.com/billing/payments)
 - [微软帐号个人资料修改总入口-包括Xbox资料](https://account.microsoft.com/profile/)
 - [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
+- [xbox 保修注册，注册的时候提示电话号码无效，弄了个85+8位号码就可以了，随便弄了香港的号码](https://support.xbox.com/zh-CN/my-account/warranty-and-service/xbox-warranty-information)
+
 - [官方金会员优惠游戏-港服](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)
 
 - [家庭共享-PC上可以设置](https://account.microsoft.com/family/?lang=zh-TW)
 
+- [xbox 官方论坛](https://forums.xbox.com/zh-cn/home)
 - [Xbox游戏比价网站](http://www.xbox-now.com/zh/news)
 - [Xbox早知道，有一个公众号：xbox早知道](http://www.yxzzd.com/)
 - [Xbox比价小助手-微信小程序，见下图](https://tieba.baidu.com/p/5455514797)
