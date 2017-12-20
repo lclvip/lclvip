@@ -28,17 +28,19 @@
 
 - [Xbox游戏搜索-microsoft 建议用这个](https://www.microsoft.com/zh-hk/search/result.aspx?q=The+Surge&form=MSHOME)
 - [Xbox游戏搜索](https://www.xbox.com/en-US/games/xbox-one?xr=shellnav)
+- [xbox 港区最新游戏](https://www.microsoft.com/zh-hk/store/new/games/xbox?s=store)
+- [xbox 美区最新游戏](https://www.microsoft.com/en-us/store/new/games/xbox?s=store)
 
 - [xbox 帐号Social社交动态页面-港服 ](https://account.xbox.com/zh-hk/Social)
 - [xbox 帐号成就中心-港服](https://account.xbox.com/zh-hk/Profile)
 - [xbox 帐号迁移-建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏](https://live.xbox.com/zh-HK/AccountMigration)
+
 - [绑定信用卡页面：点新增付款选项](https://account.microsoft.com/billing/payments)
 - [微软帐号个人资料修改总入口-包括Xbox资料](https://account.microsoft.com/profile/)
 - [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
 - [xbox 保修注册，注册的时候提示电话号码无效，弄了个85+8位号码就可以了，随便弄了香港的号码](https://support.xbox.com/zh-CN/my-account/warranty-and-service/xbox-warranty-information)
 
 - [官方金会员优惠游戏-港服](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)
-
 - [家庭共享-PC上可以设置](https://account.microsoft.com/family/?lang=zh-TW)
 
 - [xbox 官方论坛](https://forums.xbox.com/zh-cn/home)
