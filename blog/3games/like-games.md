@@ -84,6 +84,8 @@ thatgamecompany 沉寂五年，在《Flower》和《Journey》之后又一款情
 我的统计：共43个游戏，其中独占25个 这里的统计：共43个游戏，其中独占22个
 
 ## cod evein 嗜血代码，ARPG 动漫风格，格斗，官方繁体中文
+《噬血代码》的游戏背景是崩坏的近未来世界，玩家扮演的是拥有超自然能力的吸血鬼（复生者），在历险中有“搭档”（buddy）的存在，在探索地下城时，玩家可以携一位“搭档”共同前往。由于“吸血鬼”的设定，玩家操控的角色还有类似《东京喰种》中“赫子”的异化器官，可以导入敌人身体进行吸血。吸血鬼一类的复生者（revenant）拥有超凡的能力，但大部分记忆丧失。缺少血液供应而丧失理智的复生者被称为堕鬼（lost）。
+
 - [cod evein 嗜血代码 介绍 ](http://ku.gamersky.com/2018/code-vein/)
 - [官方繁体中文预告视频](https://weibo.com/tv/v/FnbZjcCra?fid=1034:9ab00e526d6088047d7eadba667571ec)
 - [xbox 官方商店页面](https://www.xbox.com/zh-hk/games/code-vein)
