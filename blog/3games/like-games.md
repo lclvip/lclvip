@@ -5,6 +5,71 @@
 ## 一些新闻
 - [2018年 我们最期待的十款独立游戏](http://tech.sina.com.cn/roll/2017-12-17/doc-ifyptfcn1183424.shtml)
 
+## 2017 E3公布的游戏统计
+
+[E3公布的游戏统计-来源于贴吧](https://tieba.baidu.com/p/5159335682)
+
+#### 微软独占：（Xbox One and Windows 10 Exclusives） - 共8个
+1. Forza Motorsport 7 - 极限竞速7
+2. State of Decay 2 - 腐烂国度2
+3. Sea of Thieves - 盗贼之海
+4. Super Lucky's Tale - 超幸运传说
+5. Cuphead - 茶杯头
+6. Crackdown 3 - 除暴战警3
+7. Ori and the Will of the Wisps - 奥日与精灵意志
+8. Crimson Skies - 王牌飞行员（XBOX 1向下兼容代游戏）
+
+#### 微软主机独占：（Xbox One Console Exclusives） - 共8个
+1. Path of Exile - 流亡黯道
+2. Battlerite - 战争仪式
+3. Fable Fortune - 神鬼寓言：财富
+4. Robocraft Infinity
+5. Dunk Lords - 灌篮王
+6. Minion Masters: Forced to Duel
+7. Dark and Light - 明暗世界
+8. Hello Neighbor - 你好邻居
+
+
+#### 限时独占：（Xbox One Console Launch Exclusives / Timed Exclusives） - 共9个
+1. PlayerUnkown's Battlegrounds - 绝地求生：大逃杀
+2. Deep Rock Galactic - 深岩银河:下潜
+3. The Darwin Project - 达尔文计划
+4. Black Desert - 黑色沙漠
+5. The Last Night - 最后的夜晚
+6. The Artful Escape - 巧妙地逃脱
+7. Tacoma - 塔科马
+8. Ooblets - 蔬菜精灵
+9. Ashen - 灰烬
+
+
+#### 全平台：（Cross-Platform Games） - 共18个
+1. Metro: Exodus - 地铁：离去
+2. Assassin's Creed Origins - 刺客信条：起源
+3. Minecraft - 我的世界
+4. Dragonball Fighter Z
+5. CodeVein
+6. Osiris New Dawn
+7. Raiders of the Broken Planet
+8. Unruly Heroes
+9. Surviving Mars - 火星生存
+10. Observer - 观察者
+11. Brawlout
+12. Strange Brigade - 奇异小队
+13. Riverbond - 河湾
+14. Shift - 位移
+15. Conan Exiles - 流放的柯南
+16. Life is Strange: Before the Storm - 奇异人生：暴风雨前
+17. Middle Earth: Shadow of War - 中土世界：暗影之战
+18. Anthem - 圣歌
+
+
+我的统计：
+共43个游戏，其中独占25个
+
+
+官方统计：
+共43个游戏，其中独占22个
+
 ## 3A 圣歌（Anthem）- 第三人称、动作、射击、大型多人在线、开放世界
 今天（7月10日）BioWare高层Aaron Flynn在接受CBC Radio采访时表示《圣歌Anthem》的开发时间实际已经有5年之久，本作的构思在《质量效应3》2012年完成之后就已经开始了。
 
