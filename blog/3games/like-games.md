@@ -86,6 +86,7 @@ thatgamecompany 沉寂五年，在《Flower》和《Journey》之后又一款情
 ## cod evein 嗜血代码，ARPG 动漫风格，格斗，官方繁体中文
 - [cod evein 嗜血代码 介绍 ](http://ku.gamersky.com/2018/code-vein/)
 - [官方繁体中文预告视频](https://weibo.com/tv/v/FnbZjcCra?fid=1034:9ab00e526d6088047d7eadba667571ec)
+- [xbox 官方商店页面](https://www.xbox.com/zh-hk/games/code-vein)
 
 ## 3A 圣歌（Anthem）- 第三人称、动作、射击、大型多人在线、开放世界
 今天（7月10日）BioWare高层Aaron Flynn在接受CBC Radio采访时表示《圣歌Anthem》的开发时间实际已经有5年之久，本作的构思在《质量效应3》2012年完成之后就已经开始了。
