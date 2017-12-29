@@ -41,6 +41,7 @@
 - [Xbox 国行游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)
 - [xbox 保修注册，注册的时候提示电话号码无效，弄了个85+8位号码就可以了，随便弄了香港的号码](https://support.xbox.com/zh-CN/my-account/warranty-and-service/xbox-warranty-information)
 
+- [取消金会员和Game Pass 自动订阅，点管理->取消自动续约](https://account.microsoft.com/services/)
 - [官方金会员优惠游戏-港服](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)
 - [家庭共享-PC上可以设置](https://account.microsoft.com/family/?lang=zh-TW)
 

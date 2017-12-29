@@ -4,6 +4,7 @@
 
 ## 最近更新内容
 
+  * [值得期待的一些游戏-xb](blog/3games/like-games.md) 
   * [xbox One 游戏主机的一切](blog/3games/xbox1s.md) 
   * [2017年工作上的笔记](blog/0learn/note-work/2017.md)
   * [2017年个人生活上的笔记](blog/0learn/note-personal/2017.md)  
