@@ -21,7 +21,15 @@ thatgamecompany 沉寂五年，在《Flower》和《Journey》之后又一款情
 - Praey for the Gods 神之祈猎
 - 最后一夜
 
+- [Enlightenment 启蒙，steam 有中文，上帝视角射击 Xb版不确定](http://store.steampowered.com/app/663300/Enlightenment/)
+当世界被毁灭，一个围绕“约柜”的神秘教派忽然诞生，在这座昏暗的地下建筑复合体中，原本的居民与那些胆敢进入的探险者们全都非死即疯，而你的到来又能为这座“地牢”带来多少意外呢？
 
+- [Phoning Home,steam有中文 Xb版不确定](http://store.steampowered.com/app/431650/Phoning_Home/)
+是一款以奇特外星球为背景并进行探索与生存的开放世界游戏。故事讲述了艾恩和安妮这两个机器人以及他们寻找生命意义的旅程。
+
+- [ASTRONEER 异星探险家,steam有中文，Xb版已经上预览版，有简中 ](http://store.steampowered.com/app/361420/ASTRONEER/)
+探索并重塑遥远世界！《ASTRONEER》的舞台设定在淘金热潮兴起的 25 世纪。玩家必须探索外太空边境，冒着生命危险在艰难环境下勘探资源，寻找一夜暴富的机会
+[xb store,xpa](https://www.microsoft.com/zh-hk/store/p/astroneer-game-preview/9nblggh43kzb)
 
 ## 2017 E3公布的游戏统计
 
