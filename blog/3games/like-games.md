@@ -70,6 +70,64 @@
 官方统计：
 共43个游戏，其中独占22个
 
+## 嗜血代码
+《嗜血代码》是由《噬神者》团队开发的动作角色扮演游戏，玩家要扮演一名吸血鬼，为了追求吸血鬼到底是为何而生，以及这个世界是不是有「出口」等真相，而踏上探索世界的旅程。可以操作多种武器，比如单手剑、双手剑、枪剑、斧枪、大槌等。战斗风格类似黑魂系列+噬神者的融合。2018年内登陆PC、PS4、Xbox One。
+
+## 暗黑血统3
+《黑暗之魂3》将在2018年登录电脑、PS4、Xbox One，玩家扮演一个愤怒的女神，在一个开放自由的世界中展开猎杀“七宗罪”的任务
+
+## 小恶魔附体
+《小恶魔附体》是2015年就已经发众筹成功的一款独立游戏，如今跳票到2018年发布，虽然是独立游戏，但本作采用了虚幻4引擎制作，画面很精美，也很有艺术感。游戏包含生存、探索、战斗、RPG等要素，除了PC普通，可能还会登陆Xbox One、PS4、NS。
+
+- [视频](https://www.ixigua.com/i6504861617304371726/?utm_source=toutiao&utm_medium=feed_stream#mid=2868771715)
+- [《小恶魔附体》游戏约100小时 玩法神似《无主之地》](http://www.yxdown.com/news/201712/381828.html)
+- [重口味塞尔达游戏《小恶魔附体》新演示：能玩100小时](https://www.ithome.com/html/game/340164.htm)
+
+## 无主灭绝
+《无主灭绝》将于2018年第一季度登陆PC、Xbox One、PS4。在游戏中玩家要扮演一名守卫兵与各种食人巨怪战斗
+- [E3 2017：《无主灭绝》实机演示 展示游戏设定与机制](http://www.3h3.com/info/88602.html)
+- [战斗视频](https://www.ixigua.com/i6497122984073888270/?utm_source=toutiao&utm_medium=feed_stream#mid=2868771715)
+
+
+## 羊驼病毒末世 Vicious Attack Llama Apocalypse（VALA）
+2014年初开始开发，参展南非游戏展引发大话题的游戏《羊驼病毒末世（Vicious Attack Llama Apocalypse）》终于公布了游戏Xbox One和PC版的发售时间，将于2018年2月26日开卖，铺天盖地的羊驼正在路上
+《羊驼病毒末世》是一款上帝视角、Roguelike-lite-ish、双摇杆射击游戏，玩家要操纵四脚机器人和数不清的羊驼作战，从羊驼口中（？）守护下游戏里的城市Santa Llama。
+《羊驼病毒末世》做多支持4人本地合作，游戏特色包括，不断变化的都市，每次都有新的战斗体验，战役和无尽模式，待解锁的数十件武器，手柄/键鼠支持，可中途参展或退出。
+
+- [《羊驼病毒末世（Vicious Attack Llama Apocalypse）》发售日公布 2018年2月26日开卖](http://www.gamersky.com/news/201712/994363.shtml)
+- [steam,无中文](http://store.steampowered.com/app/659110/Vicious_Attack_Llama_Apocalypse/)
+- [官网](http://www.valagame.com/)
+- [视频](https://www.ixigua.com/i6502238611176423950/?utm_source=toutiao&utm_medium=feed_stream#mid=2868771715)
+
+## the adventure pals 冒险伙伴
+本地双人，横版动作冒险，ARPG,2018上线 支持全平台，暂无中文
+- [官网](http://theadventurepals.com/)
+- [steam](http://store.steampowered.com/app/396710/The_Adventure_Pals/)
+- [视频](https://www.toutiao.com/item/6493706749780951566/)
+
+## 异星奇兵，已经发行
+《异星奇兵》是一款第三人称射击游戏，支持单人、在线合作、竞技模式，具备近身格斗系统，支持XboxOne与Windows10玩家、或PS4与STEAM玩家进行跨平台对战。
+
+- [试玩视频](https://www.ixigua.com/i6496768962380956174/?utm_source=toutiao&utm_medium=feed_stream#mid=2868771715)
+- [《异星奇兵》将于9月22日发售 序章免费玩](http://www.gamersky.com/news/201708/944837.shtml?tag=wap)
+- [官方主页](https://www.raidersofthebrokenplanet.com/#Home)
+- [xbox 商店页面](https://www.microsoft.com/en-us/store/p/raiders-of-the-broken-planet/9p4d41k02wb8)
+
+## Fade To Silence，已经上Steam EA，不知道 是否有XB版
+开放世界生存游戏《归于沉寂（Fade To Silence）》于12月14日登录Steam平台，在游戏中玩家将会面临严酷寒冬、饥饿、怪物乃至大自然本身的挑战！
+
+- [视频](https://www.ixigua.com/i6499796733810180622/?utm_source=toutiao&utm_medium=feed_stream#mid=2868771715)
+- [steam 有中文](http://store.steampowered.com/app/706020/Fade_to_Silence/)
+- [官方网站](http://fadetosilence.com/)
+
+## Nelo，有可能会上XBox
+《尼洛》由虚幻4引擎打造，是一款快节奏，科幻风格的双摇杆第三人称射击游戏。游戏中玩家将扮演一位名为Nelo Aukal的外星人，他是一场船难事故中的唯一幸存者。然而他的降落引起了外星星球上的敌对AI造物Nightsithe的追杀，而他要做的则是绝境逃生。
+
+　　在游戏中，玩家所装备的能量套装提供了超强的速度，敏捷及杰出的机动能力，如动力滑翔、跳跃墙垣、空中冲刺及流星打击。能量套装连接着四只Aphelion之手，它们允许玩家同时装配最多四把常规武器。仅需点击一个按键，玩家即可从第三人称动作及从上至下的双摇杆射击模式中无缝切换。前者更适合远程垂直作战，后者则更适合快速的近战。
+- [Nelo steam 预览版](http://store.steampowered.com/app/537000/Nelo/)
+- [官网](http://nelogame.com/)
+
+
 ## 3A 圣歌（Anthem）- 第三人称、动作、射击、大型多人在线、开放世界
 今天（7月10日）BioWare高层Aaron Flynn在接受CBC Radio采访时表示《圣歌Anthem》的开发时间实际已经有5年之久，本作的构思在《质量效应3》2012年完成之后就已经开始了。
 
