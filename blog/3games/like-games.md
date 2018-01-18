@@ -3,14 +3,18 @@
 ## 2017至2018年值得关注的Xbox游戏
 
 ## 一些新闻
+
 - [2018年 我们最期待的十款独立游戏](http://tech.sina.com.cn/roll/2017-12-17/doc-ifyptfcn1183424.shtml)
 
-#### 个人感兴趣的
-- [Tunic 短衣客]()
+## 个人感兴趣的
 
+## [Tunic 短衣客]()
+
+`
 3D，45 度俯视视角，卡通风格，经典剑盾装备，很好，这很塞尔达。游戏主角是一只可爱的小狐狸，在一个广大的世界中进行冒险。玩家能够在游戏中探索荒野、神秘的废墟，也要和古老的可怕生物进行战斗。游戏的低多边形场景，简洁的建模和明亮的色调，再加上萌萌的人设都是优点，小狐狸的挥剑、举盾格挡、滚地等动作也都很流畅，游戏中不仅要面对散布在世界各地的杂兵，还会激活守在遗迹里的强大 BOSS，BOSS 战相当紧张刺激，可以期待一下。
+`
 
-- [sky 光遇]
+## [sky 光遇]()
 
 thatgamecompany 沉寂五年，在《Flower》和《Journey》之后又一款情感体验类的新游戏。通过 Apple 发布会上的介绍和演示画面来看，《Sky》毫无疑问可以多人共同参与到游戏中，游戏主题为“爱与给予”，演示中玩家操控一个角色在地图中进行移动、探索、解谜并继续前进，游戏的流程行进类似于《风之旅人》（Journey），这也延续了陈星汉的禅派风格。
 
@@ -18,19 +22,23 @@ thatgamecompany 沉寂五年，在《Flower》和《Journey》之后又一款情
 
 本作可能不用等到 2018 年，没准圣诞假期苹果爸爸就会放它上架，有 Apple TV 的同学务必用大电视体验起来。
 
-- Praey for the Gods 神之祈猎
-- 最后一夜
+## [Praey for the Gods 神之祈猎]()
 
-- [Enlightenment 启蒙，steam 有中文，上帝视角射击 Xb版不确定](http://store.steampowered.com/app/663300/Enlightenment/)
+## [最后一夜]()
+
+## [Enlightenment 启蒙，steam 有中文，上帝视角射击 Xb版不确定](http://store.steampowered.com/app/663300/Enlightenment/)
+`
 当世界被毁灭，一个围绕“约柜”的神秘教派忽然诞生，在这座昏暗的地下建筑复合体中，原本的居民与那些胆敢进入的探险者们全都非死即疯，而你的到来又能为这座“地牢”带来多少意外呢？
-
-- [Phoning Home,steam有中文 Xb版不确定](http://store.steampowered.com/app/431650/Phoning_Home/)
+`
+## [Phoning Home,steam有中文 Xb版不确定](http://store.steampowered.com/app/431650/Phoning_Home/)
+`
 是一款以奇特外星球为背景并进行探索与生存的开放世界游戏。故事讲述了艾恩和安妮这两个机器人以及他们寻找生命意义的旅程。
+`
 
-- [ASTRONEER 异星探险家,steam有中文，Xb版已经上预览版，有简中 ](http://store.steampowered.com/app/361420/ASTRONEER/)
-探索并重塑遥远世界！《ASTRONEER》的舞台设定在淘金热潮兴起的 25 世纪。玩家必须探索外太空边境，冒着生命危险在艰难环境下勘探资源，寻找一夜暴富的机会
-[xb store,xpa](https://www.microsoft.com/zh-hk/store/p/astroneer-game-preview/9nblggh43kzb)
-
+## [ASTRONEER 异星探险家,steam有中文，Xb版已经上预览版，有简中 ](http://store.steampowered.com/app/361420/ASTRONEER/)
+`
+探索并重塑遥远世界！《ASTRONEER》的舞台设定在淘金热潮兴起的 25 世纪。玩家必须探索外太空边境，冒着生命危险在艰难环境下勘探资源，寻找一夜暴富的机会  　[xb store,xpa](https://www.microsoft.com/zh-hk/store/p/astroneer-game-preview/9nblggh43kzb)
+`
 ## 2017 E3公布的游戏统计
 
 [E3公布的游戏统计-来源于贴吧](https://tieba.baidu.com/p/5159335682)
