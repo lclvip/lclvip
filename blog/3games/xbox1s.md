@@ -32,6 +32,7 @@
 - [xbox 港区最新游戏](https://www.microsoft.com/zh-hk/store/new/games/xbox?s=store)
 - [xbox 美区最新游戏](https://www.microsoft.com/en-us/store/new/games/xbox?s=store)
 
+- [xboxdvr 获取XBOX录制的视频和截图](http://xboxdvr.com/gamer/lixiaominghk/videos)
 - [xbox 帐号Social社交动态页面-港服 ](https://account.xbox.com/zh-hk/Social)
 - [xbox 帐号成就中心-港服](https://account.xbox.com/zh-hk/Profile)
 - [xbox 帐号迁移-建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏](https://live.xbox.com/zh-HK/AccountMigration)
