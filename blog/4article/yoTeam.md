@@ -75,6 +75,14 @@ yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](h
 - DotNet Core SDK 
 - Net Framework 3.5 或以上
 
+**Azure及Docker**
+
+- 如果想要示例程序部署成功，必须要一Azure订阅
+- 如果使用Docker的方式部署，还需要准备Docker镜像仓库
+
+参考此文档：http://donovanbrown.com/post/Yo-Team-meet-Azure-Container-Instances
+
+
 **安装**
 
 - `npm install yo`
