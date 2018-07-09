@@ -153,8 +153,10 @@ Arguments:
 **team:app 命令**
 
 有一个 `team:app`的子命令，配以参数后可以直接触发Demo的创建，以下是TFS的示例：
-```yo team:app --skip-cache false asp YoTeamDemoApplxm1 "http://{TFS登陆帐号}:{密码}@{tfs集合URL地址}" "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff Default paasslots true 1 1 1 1 1 1 1 {servicePrincipalKey} {tfsPAT} YoTeamDemoApplxm1
-`
+
+```
+yo team:app --skip-cache false asp YoTeamDemoApplxm1 "http://{TFS登陆帐号}:{密码}@{tfs集合URL地址}" "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff Default paasslots true 1 1 1 1 1 1 1 {servicePrincipalKey} {tfsPAT} YoTeamDemoApplxm1
+```
 
 以下内容是命令行输出：
 
@@ -219,7 +221,8 @@ bower                           ENOENT No bower.json present
 
 此时可以去查看TFS中已经生成的团队项目。可以看到，代码还未推送到TFS服务器，我们还需要执行下面的命令推送代码，并触发CI/CD:
 
-`````cd YoTeamDemoApplxm1
+```
+cd YoTeamDemoApplxm1
 git push
 ```
 
@@ -387,7 +390,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
 
  - 直接安装yo team官方版本
- - 使用这里的TFS Build 定义，导入到自己的TFS服务器/VSTS
+ - 创建TFS Build定义，使用上面提供的命令做为任务的命令
  - 修改参数值
  - 触发Build 定义即可
 
@@ -396,5 +399,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 ![](images/yoTeam/labs-project.png) . 
 
+如果您想拥有一键式体验，那请试用我们的产品吧：
 
 新版地址: http://labs-test.devopshub.cn/Templates?type=Project
+
