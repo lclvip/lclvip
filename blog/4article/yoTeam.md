@@ -252,7 +252,8 @@ yo team:project --skip-cache false "YoTeamDemoApp"  https://tfs.devopshub.cn/Tes
 
 - `yo team:azure` 创建Azure订阅的服务终结点，用于部署网站到指定的订阅帐户中
 
-```yo team:azure --skip-cache false "YoTeamDemoApp"   https://tfs.devopshub.cn/TestCollection "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff {servicePrincipalKey} {TFS PAT}
+```
+yo team:azure --skip-cache false "YoTeamDemoApp"   https://tfs.devopshub.cn/TestCollection "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff {servicePrincipalKey} {TFS PAT}
 ```
 
 - `yo team:build` 创建构建定义
@@ -263,7 +264,9 @@ yo team:build --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/Te
 
 - `yo team:pipeline` 创建部署流水线
 
-`yo team:pipeline --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/TestCollection default paasslots "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff 1 1 1 1 1 1 {servicePrincipalKey} {TFS PAT} "YoTeamDemoApp"
+```
+yo team:pipeline --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/TestCollection default paasslots "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff 1 1 1 1 1 1 {servicePrincipalKey} {TFS PAT} "YoTeamDemoApp"
+```
 
 - `yo team:git **** clone` 从创建好的Demo项目中克隆git仓库
 
@@ -283,6 +286,7 @@ yo team:asp --skip-cache false "YoTeamDemoApp" false 1
 yo team:git --skip-cache false "YoTeamDemoApp" 
 http://{tfs 帐号}:{密码}@tfs.devopshub.cn/TestCollection commit {TFS PAT}
 ```
+
 - 推送到TFS服务器，推送成功后，会自动触发上面创建的Build 定义,成功后会触发上面创建部署流水线
 
 ```
@@ -382,7 +386,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 [Quickstart: Use npm to store JavaScript packages in VSTS or TFS](https://docs.microsoft.com/zh-cn/vsts/package/get-started-npm?view=vsts)
 
-[Publish an npm package](https://docs.microsoft.com/zh-cn/vsts/package/npm/publish?view=vsts)
+[Publish an npm package](https://docs.microsoft.com/zh-cn/vsts/packageteam:app 命令/npm/publish?view=vsts)
 
 
 ## 十一、总结
