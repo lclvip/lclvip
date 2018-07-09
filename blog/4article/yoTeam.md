@@ -1,4 +1,5 @@
-# 使用 `yo team` 在vsts或是tfs中自动创建团队项目持续交付流水线
+# 使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线
+
 ## 背景
    如今，DevOps势头异常猛烈，从C端的互联网企业到B端传统软件企业都在陆续开展DevOps转型。有从文化/管理理念层面开始转型的，也有从技术层面（工具链）开始转型的，工具链层面要么是开源方案（Jenkins），要么引入大厂的产品（Jira、TFS），首先，想改变是非常棒的一个决定，在数字化经济时代和知识大暴炸时代，先迈出第一步拥抱敏捷开发和精益思想总比那些还固守传统工业时代的经营理念的企业具有更多机会。好，现在那问题来了，如果我们要从工具链层面入手，有没有一种办法快速搭建基础环境，一键生成持续交付流水线的方法呢？答案是：当然有，Visual Studio Team Service和Team Foundation Server 可以做到！！！！试想，不用自己准备虚拟机，也不用自己安装测试环境、配置环境，交付流水线也不需要自己配置，只需要点几次鼠标，是多么愉快的事情啊，可以节省非常多的时间。通过试用生成的环境，我们可以快速评估平台能力，确认是否符合自己的团队；还可以学习这其中的最佳实践，让我们快速上手。
 
@@ -152,7 +153,7 @@ Arguments:
 **team:app 命令**
 
 有一个 `team:app`的子命令，配以参数后可以直接触发Demo的创建，以下是TFS的示例：
-`yo team:app --skip-cache false asp YoTeamDemoApplxm1 "http://{TFS登陆帐号}:{密码}@{tfs集合URL地址}" "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff Default paasslots true 1 1 1 1 1 1 1 {servicePrincipalKey} {tfsPAT} YoTeamDemoApplxm1
+```yo team:app --skip-cache false asp YoTeamDemoApplxm1 "http://{TFS登陆帐号}:{密码}@{tfs集合URL地址}" "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff Default paasslots true 1 1 1 1 1 1 1 {servicePrincipalKey} {tfsPAT} YoTeamDemoApplxm1
 `
 
 以下内容是命令行输出：
@@ -218,9 +219,9 @@ bower                           ENOENT No bower.json present
 
 此时可以去查看TFS中已经生成的团队项目。可以看到，代码还未推送到TFS服务器，我们还需要执行下面的命令推送代码，并触发CI/CD:
 
-`cd YoTeamDemoApplxm1`
-`git push`
-
+`````cd YoTeamDemoApplxm1
+git push
+```
 
 #### 至此，大功告成！
 
@@ -242,19 +243,20 @@ yo team:app  --skip-cache false "asp" "DemoApp122" "lean-soft-lxm-demo" "Visual 
 
 - `yo team:project` 创建团队项目
 
-`
+```
 yo team:project --skip-cache false "YoTeamDemoApp"  https://tfs.devopshub.cn/TestCollection {TFS PAT}
-`
+```
+
 - `yo team:azure` 创建Azure订阅的服务终结点，用于部署网站到指定的订阅帐户中
 
-`yo team:azure --skip-cache false "YoTeamDemoApp"   https://tfs.devopshub.cn/TestCollection "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff {servicePrincipalKey} {TFS PAT}
-`
+```yo team:azure --skip-cache false "YoTeamDemoApp"   https://tfs.devopshub.cn/TestCollection "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff {servicePrincipalKey} {TFS PAT}
+```
 
 - `yo team:build` 创建构建定义
 
-`
+```
 yo team:build --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/TestCollection default paasslots "1" "1" "1" {TFS PAT} YoTeamDemoApp
-`
+```
 
 - `yo team:pipeline` 创建部署流水线
 
@@ -262,26 +264,28 @@ yo team:build --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/Te
 
 - `yo team:git **** clone` 从创建好的Demo项目中克隆git仓库
 
-`yo team:git --skip-cache false "YoTeamDemoApp" http://tfs帐号:tfs密码@tfs.devopshub.cn/TestCollection clone {TFS PAT}
-`
+```
+yo team:git --skip-cache false "YoTeamDemoApp" http://tfs帐号:tfs密码@tfs.devopshub.cn/TestCollection clone {TFS PAT}
+```
+
 - `yo team:asp` 创建示例程序代码到指定的本地git目录
 
-`
+```
 yo team:asp --skip-cache false "YoTeamDemoApp" false 1
-`
+```
 
 - `yo team:git **** commit` 将上一步创建的代码添并提交到git仓库
 
-`
+```
 yo team:git --skip-cache false "YoTeamDemoApp" 
 http://{tfs 帐号}:{密码}@tfs.devopshub.cn/TestCollection commit {TFS PAT}
-`
+```
 - 推送到TFS服务器，推送成功后，会自动触发上面创建的Build 定义,成功后会触发上面创建部署流水线
-- 
-`
+
+```
 cd YoTeamDemoApp
 git push
-`
+```
 
 NOTE: 以上命令中的`YoTeamDemoApp`表示一个将要创建的TFS 团队项目名称，执行以上整套命令时，需保证此名称在TFS项目集合不存在。
 
