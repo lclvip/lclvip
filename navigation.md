@@ -19,6 +19,8 @@
 
 [原创]()
 
+  * ### 2018
+  * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](/blog/4article/yoTeam)
   * ### 2017-11
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档](blog/4article/docs-mdwiki.md)
