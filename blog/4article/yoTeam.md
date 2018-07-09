@@ -247,7 +247,6 @@ yo team:app  --skip-cache false "asp" "DemoApp122" "lean-soft-lxm-demo" "Visual 
 
 ```
 
-
 ## 七、以组合命令的方式来执行
 
 以组合命令的方式来运行的好处是我们可以决定何时候创建Demo项目里面的内容，并与自己的工具进行集成，以下是 yo team:app 命令中包含的子命令：
@@ -415,3 +414,11 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 新版地址: http://labs-test.devopshub.cn/Templates?type=Project
 
+**除此之外：**
+
+- Azure针对VSTS有项功能，可实现类似的效果，功能更完善，叫 Azure DevOps Project，[详情请参阅这里](https://docs.microsoft.com/zh-cn/vsts/pipelines/apps/cd/azure/azure-devops-project-aspnetcore?toc=%2Fvsts%2Fdeploy-azure%2Ftoc.json&;bc=%2Fvsts%2Fdeploy-azure%2Fbreadcrumb%2Ftoc.json&view=vsts)
+
+- 针对VSTS，有一套更丰富的动手实验，可以使用一个叫 VSTS DemoGenerator 的工具来生成示例项目，参考地址：https://almvm.devopshub.cn/labs/vsts/
+
+- 针对TFS，也有一套更丰富的动手实验，但需自行下载虚拟镜像到本地，并将虚拟机运行起来才可以体验这套动手实验。如果想省事，我们的研发测试去产品提供了一套环境模板，具有一键式体验。请参考以下两个地址：
+https://almvm.azurewebsites.net/labs/tfs/ https://almvm.devopshub.cn/labs/tfs/agile/
