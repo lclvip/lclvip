@@ -114,7 +114,7 @@ Available Generators:
     release
 ```
 
-- 查看 yoteam 的使用方法,运行命令： `yo team -h 或yo team --help`
+- 查看 yoteam 的使用方法,运行命令： `yo team -h 或yo team --help`.子命令：`yo team:asp -h 或yo team:project --help`
 
 ```
  yo team:app [options] [<type>] [<applicationName>] [<tfs>] [<azureSub>] [<azureSubId>] [<tenantId>] [<servicePrincipalId>] [<queue>] [<target>] [<installDep>] [<groupId>] [<dockerHost>] [<dockerCertPath>] [<dockerRegistry>] [<dockerRegistryId>] [<dockerPorts>] [<dockerRegistryPassword>] [<servicePrincipalKey>] [<pat>] [<customFolder>]
