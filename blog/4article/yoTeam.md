@@ -374,46 +374,28 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 ![](images/yoTeam/tfs-package-info.png) . 
 
-## 使用TFS中的包管理功能
+## 使用TFS中的包管理来发布 定制化的yo team 包
 
-1. 首先，打开TFS，进入包管理功能页面
+请参以下考官方文档：
 
-![](a.png)
+[Quickstart: Use npm to store JavaScript packages in VSTS or TFS](https://docs.microsoft.com/zh-cn/vsts/package/get-started-npm?view=vsts)
 
-2. 点击创建，创建一个包管理仓库
-
-![](a.png)
-
-3. 选择NPM
-
-![](a.png)
-
-4. 配置构建服务器的NPM源仓库
-
-![](a.png)
-
-5. 将yo team 的构建包发布至TFS包仓库
-
-![](a.png)
-
-6. 在构建服务器卸载旧版本，然后安装修改后的 yo team
-
-![](a.png)
-
-7. 运行命令，查看版本号，确认已经安装是修改后版本
-
-![](a.png)
-
-大功告成！返回TFS服务器，触发一次构建，以验证结果
+[Publish an npm package](https://docs.microsoft.com/zh-cn/vsts/package/npm/publish?view=vsts)
 
 
 ## 总结
 
-这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾，我在文末提供
- - Build 定义的Json文件
- - 源仓库使用命令安装，我们已经发布到NPM官方仓库
+这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
 
-导入Build定义，修改自己的参数值，即可
+ - 直接安装yo team官方版本
+ - 使用这里的TFS Build 定义，导入到自己的TFS服务器/VSTS
+ - 修改参数值
+ - 触发Build 定义即可
 
 
+最终，我们已将yo team 集成到了自己的研发测试云产品中：
 
+![](images/yoTeam/labs-project.png) . 
+
+
+新版地址: http://labs-test.devopshub.cn/Templates?type=Project
