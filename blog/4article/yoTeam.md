@@ -17,19 +17,26 @@ TFS服务器中创建持续交付流水线，方法是通用的。
 ### 如何创建？
 
 - 我们先看看这个工具如何使用，注意查看下面的图片
+
 ![](http://donovanbrown.com/image.axd?picture=image_268.png)
 ![](http://donovanbrown.com/image.axd?picture=image_thumb_271.png)
+
+
 ![](http://donovanbrown.com/image.axd?picture=image_thumb_272.png)
 ![](http://donovanbrown.com/image.axd?picture=image_thumb_273.png)
 
 - 看看创建出来的效果
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image1.png)
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image2.png)
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image3.png)
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image4.png)
 
 
-## 关于 yoTeam
+## 三、关于 yoTeam
 
 yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](https://github.com/DarqueWarrior/generator-team)。通过执行工具中提供的命令，可以帮助我们在TFS或是VSTS中快速创建 一套CI/CD 部署流水线. 作者是微软的一位` Principal DevOps Manager`, yo team 使用介绍 可以参考[大神的博客](http://donovanbrown.com/post/yo-Team)
 
@@ -50,11 +57,12 @@ yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](h
 - Docker images in Azure App Service on Linux
 - Azure Container Instances
 
-## yo Team 使用指南
+## 四、yo Team 使用指南
 
 ### 安装
 
 **必须环境要求：**
+
 - 安装 git, 需要用到git 推送示例代码
 - nodejs环境,Yeoman是用nodejs编写的，必须要有nodejs环境
 - npm，用来安装yo（Yeoman）
@@ -62,6 +70,7 @@ yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](h
 - 如果采用的是私有云或是自己内部的数据中心，需保证TFS所在的服务器可以连接到外网
 
 **Net项目所需的环境**
+
 - DotNet Core SDK 
 - Net Framework 3.5 或以上
 
@@ -97,6 +106,7 @@ Available Generators:
 ```
 
 - 查看 yoteam 的使用方法,运行命令： `yo team -h 或yo team --help`
+
 ```
  yo team:app [options] [<type>] [<applicationName>] [<tfs>] [<azureSub>] [<azureSubId>] [<tenantId>] [<servicePrincipalId>] [<queue>] [<target>] [<installDep>] [<groupId>] [<dockerHost>] [<dockerCertPath>] [<dockerRegistry>] [<dockerRegistryId>] [<dockerPorts>] [<dockerRegistryPassword>] [<servicePrincipalKey>] [<pat>] [<customFolder>]
 
@@ -129,11 +139,11 @@ Arguments:
 
 ```
 
-## 直接以一问一答的交互模式来运行命令
+## 五、直接以一问一答的交互模式来运行命令
 
-通常，我们如果仅仅是人个学习使用VSTS或者是TFS，在命令行直接运行 `yo team`即可，在命令行采用一问一答的交互方式来创建示例项目。
+通常，我们如果仅仅是人个学习使用VSTS或者是TFS，在命令行直接运行 `yo team`即可，在命令行根据提示采用一问一答的交互方式来创建示例项目，比较简单，这里不作详细说明了。
 
-## 以单个命令的形式运行命令
+## 六、以单个命令的形式运行命令
 
 我们有很多客户，而且每个客户也有多个试点团队，要求每个人都去命令行敲这些命令，并准备一堆参数，这基本上不太可能，所以，我们在想，是否有更好的方式来应对这些个场景？答案是有！！！
 
@@ -148,17 +158,6 @@ Arguments:
 以下内容是命令行输出：
 
 ```
-
-     _-----_     ╭──────────────────────────╮
-    |       |    │     Welcome to DevOps    │
-    |--(o)--|    │   powered by Microsoft   │
-   `---------´   │      version 0.4.51      │
-    ( _´U`_ )    ╰──────────────────────────╯
-    /___A___\   /
-     |  ~  |
-   __'.___.'__
- ´   `  |° ´ Y `
-
 + Found Team project
 + Cloning repository http://******:********@tfs.devopshub.cn/TestCollection/_git/YoTeamDemoApplxm1
 fatal: destination path 'YoTeamDemoApplxm1' already exists and is not an empty directory.
@@ -227,7 +226,7 @@ bower                           ENOENT No bower.json present
 
 NOTE: 如果想偿试其他类型的项目，修改参数 `type` 即可，支持的参数值有：asp, node, java、aspFull
 
-##### 在微软研发云vsts中创建Demo项目
+#### 在微软研发云vsts中创建Demo项目
 
 参考以下命令，使用方式类似,此处不在详细解释
 
@@ -237,7 +236,7 @@ yo team:app  --skip-cache false "asp" "DemoApp122" "lean-soft-lxm-demo" "Visual 
 ```
 
 
-## 以组合命令的方式来执行
+## 七、以组合命令的方式来执行
 
 以组合命令的方式来运行的好处是我们可以决定何时候创建Demo项目里面的内容，并与自己的工具进行集成，以下是 yo team:app 命令中包含的子命令：
 
@@ -263,7 +262,7 @@ yo team:build --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/Te
 
 - `yo team:git **** clone` 从创建好的Demo项目中克隆git仓库
 
-`yo team:git --skip-cache false "YoTeamDemoApp" http://lixiaoming:LXM%232931157121@tfs.devopshub.cn/TestCollection clone {TFS PAT}
+`yo team:git --skip-cache false "YoTeamDemoApp" http://tfs帐号:tfs密码@tfs.devopshub.cn/TestCollection clone {TFS PAT}
 `
 - `yo team:asp` 创建示例程序代码到指定的本地git目录
 
@@ -294,8 +293,7 @@ NOTE: queue 参数值建议用Default（执行yo team命令的构建服务器也
 + Found Azure Service Endpoint 'Visual Studio Enterprise - MPN'                                  
 C:\Users\liminany\node_modules\generator-team\generators\app\utility.js:668                      
          callback(null, obj.value[0].id);                                                        
-                                    ^                                                            
-                                                                                                 
+                                    ^  
 TypeError: Cannot read property 'id' of undefined                                                
     at Request._callback (C:\Users\liminany\node_modules\generator-team\generators\app\utility.js
 :668:37)                                                                                         
@@ -310,7 +308,7 @@ TypeError: Cannot read property 'id' of undefined
     at emitNone (events.js:91:20)                                                                
 ```
 
-## 使用TFS Build来创建TFS Demo项目
+## 八、使用TFS Build来创建TFS Demo项目
 
 我们需要做两件事情：
 
@@ -327,10 +325,7 @@ TypeError: Cannot read property 'id' of undefined
 
 可以看到，yo team的参数都已经改成了参数化的形式，而不是hard Code命令中，这样有更灵活，不仅仅是在我自己的TFS服务器中执行、创建Demo项目，可以是任何人，只要把对应的参数修改成自己的值即可（另外在VSTS也是一样的道理）。
 
-![](a.png)
-
-
-上的任务中还包含了`Replace tokens in labs-result-template.json和发布生成项目`等任务，这些任务是将yo team 创建好的TFS Demo项目信息提取出来了，以便我们后续的步骤中与其他系统或功能进行集成时，可以显示和快速的访问这些地址（如TFS团队项目地址、Git仓库地址等）
+上面的任务中还包含了`Replace tokens in labs-result-template.json和发布生成项目`等任务，这些任务是将yo team 创建好的TFS Demo项目信息提取出来了，以便我们后续的步骤中与其他系统或功能进行集成时，可以显示和快速的访问这些地址（如TFS团队项目地址、Git仓库地址等）
 
 
 总算完成了，经过使用，示例项目中的示例Web程序部署到Azure后，可以在Azure资源组中找到，并访问此网站：
@@ -353,7 +348,7 @@ http://{Demo项目名}{四位随机数}Prod.azurewebsites.net
 
 喔,原来是这样创建的,用的就是ARM模板,那直接改模板就好啦.
 
-## 修改yo team源码
+## 九、修改yo team源码
 
 从Github Fork仓库,在Clone到本地,开改.
 
@@ -374,7 +369,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 ![](images/yoTeam/tfs-package-info.png) . 
 
-## 使用TFS中的包管理来发布 定制化的yo team 包
+## 十、使用TFS中的包管理来发布 定制化的yo team 包
 
 请参以下考官方文档：
 
@@ -383,7 +378,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 [Publish an npm package](https://docs.microsoft.com/zh-cn/vsts/package/npm/publish?view=vsts)
 
 
-## 总结
+## 十一、总结
 
 这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
 
