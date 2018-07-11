@@ -19,4 +19,9 @@
 
 ## Steam Link 官方 APP
 
+## kinoni方案
+
+官网：http://kinoconsole.kinoni.com/
+
+
 
