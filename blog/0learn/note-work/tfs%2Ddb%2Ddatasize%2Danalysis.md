@@ -133,3 +133,7 @@ AND fm.PartitionId = c.PartitionId
 GROUP BY c.Container
 ORDER BY TotalSizeInMB DESC
 ```
+
+## clear at once 
+
+`exec prc_DeleteUnusedContent`
