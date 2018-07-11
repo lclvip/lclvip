@@ -1,3 +1,5 @@
+#掌机、游戏手机、串流至手机或平板
+
 # PC游戏串流方案
 
 ## nvidia experience 显卡方案
@@ -23,5 +25,24 @@
 
 官网：http://kinoconsole.kinoni.com/
 
+# 游戏手机 
 
+## 黑鲨游戏手机
+
+
+## 努比亚红魔游戏手机
+
+## 华硕ROG Phone
+
+# 手机手柄（贴合类）
+
+##小霸王拉伸游戏手柄
+
+https://item.jd.com/18971425118.html
+
+## Ipage
+
+## 北通W1
+
+## 飞智
 
