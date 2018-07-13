@@ -1,4 +1,6 @@
-# [PMI-ACP参考教材](https://www.douban.com/doulist/39468538/)
+# PMI-ACP参考教材
+
+[PMI-ACP参考教材](https://www.douban.com/doulist/39468538/)
 
 ##. 知识体系概要 [精益和敏捷软件开发.ppt](http://pan.baidu.com/s/1hszy4OO)
 
