@@ -42,7 +42,7 @@ https://item.jd.com/18971425118.html
 
 ## HANDJOY 
 
-https://item.jd.com/26471027821.html#crumb-wrap
+https://item.jd.com/7043530.html
 
 ## Ipage
 
