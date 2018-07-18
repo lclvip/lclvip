@@ -7,6 +7,8 @@ https://www.tw.blackdesertm.com/
 22A0475E6DCE
 22AE276E673C
 
+支持原生手柄：https://www.youtube.com/watch?v=XEf7r_QPeog
+
 
 ## IOS MFI手柄游戏 收集
  - [翡翠帝国特别版](https://itunes.apple.com/cn/app/jade-empire-special-edition/id1108475553?mt=8)
