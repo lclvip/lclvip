@@ -1,5 +1,10 @@
 # 记录一切小工具
 
+## 打开Win任务计划命令
+
+-  Control Schedtasks
+- [如何让cmd一直默认以管理员身份打开](https://blog.csdn.net/qq_41878311/article/details/80641129)
+
 ## Win10 相关
 
 1. 关闭 休眠 powershell 命令:powercfg –h off
