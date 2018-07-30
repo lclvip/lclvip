@@ -8,7 +8,9 @@
 
 ## 一、在Azure云端创建一套TFS2018环境
 
-通过使用我们的[DevOps 动手实验室](http://labs.devopshub.cn/)，可以通过傻瓜式的操作在Azure云端创建一套TFS2018环境，免去自己安装系统、软件环境、配置等工作，使我们可以只关注我们想要实现的目标。此处不详细如何使用，如果想体验，可以关注我们的微信公众号：DevOpsHub，与我们联系。
+通过使用我们的[DevOps 动手实验室]()，可以通过傻瓜式的操作在Azure云端创建一套TFS2018环境，免去自己安装系统、软件环境、配置等工作，使得我们可以只关注要实现的目标。正式版即将上线，如下图示所：
+
+![](images/yoTeam/labs-environment.png) . 
 
 NOTE: 当然，如果您是私有云，有自己的数据中心，则可以在自己的
 TFS服务器中创建持续交付流水线，方法是通用的。
@@ -410,9 +412,7 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 ![](images/yoTeam/labs-project.png) . 
 
-如果您想拥有一键式体验，那请试用我们的产品吧：
-
-新版地址: http://labs-test.devopshub.cn/Templates?type=Project
+如果您想拥有一键式体验，敬请期待吧，新版本即将上线！
 
 **除此之外：**
 
@@ -420,5 +420,12 @@ yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，�
 
 - 针对VSTS，有一套更丰富的动手实验，可以使用一个叫 VSTS DemoGenerator 的工具来生成示例项目，参考地址：https://almvm.devopshub.cn/labs/vsts/
 
-- 针对TFS，也有一套更丰富的动手实验，但需自行下载虚拟镜像到本地，并将虚拟机运行起来才可以体验这套动手实验。如果想省事，我们的研发测试去产品提供了一套环境模板，具有一键式体验。请参考以下两个地址：
-https://almvm.azurewebsites.net/labs/tfs/ https://almvm.devopshub.cn/labs/tfs/agile/
+- 针对TFS，也有一套更丰富的动手实验，但需自行下载虚拟镜像到本地，并将虚拟机运行起来才可以体验这套动手实验。如果想省事，我们的研发测试去产品提供了一套环境模板，具有一键式体验, 如下图所示：
+    
+    ![](images/yoTeam/labs-environment-almvm) . 
+
+    对应的练习文档请参考以下两个地址：
+
+     - [中文版，由我们翻译并托管在github上 ](https://almvm.devopshub.cn/labs/tfs/agile/)，结合我们的 [培训环境使用]()
+
+     - [英文原版](https://almvm.azurewebsites.net/labs/tfs/), 需自行下载虚拟机来使用
