@@ -19,14 +19,15 @@ TFS服务器中使用yoTeam自动创建持续交付流水线，方法是通用�
 
 ### 如何创建？
 
-- 我们先看看这个工具如何使用，注意查看下面的图片
+- 我们先看看这个工具如何使用，注意查看下面的Git操作图片:
 
-![](http://donovanbrown.com/image.axd?picture=image_268.png)
-![](http://donovanbrown.com/image.axd?picture=image_thumb_271.png)
+创建TFS团队项目和相关内容：
 
+![](images/yoTeam/yoteam-ok.gif) . 
 
-![](http://donovanbrown.com/image.axd?picture=image_thumb_272.png)
-![](http://donovanbrown.com/image.axd?picture=image_thumb_273.png)
+推送代码并触发持续集成：
+
+![](images/yoTeam/yoteam-ok-git.gif) . 
 
 - 看看创建出来的效果
 
