@@ -70,7 +70,7 @@ yo Team 本质上是由一些命令组成，包括父命令和子命令。通过
 
 ## 五、命令模式的使用示例
 
-**yo team:app** 命令参数(`yo team:asp -h`)
+**yo team:app** 命令参数说明(`yo team:asp -help`)
 
 ```
  yo team:app [options] [<type>] [<applicationName>] [<tfs>] [<azureSub>] [<azureSubId>] [<tenantId>] [<servicePrincipalId>] [<queue>] [<target>] [<installDep>] [<groupId>] [<dockerHost>] [<dockerCertPath>] [<dockerRegistry>] [<dockerRegistryId>] [<dockerPorts>] [<dockerRegistryPassword>] [<servicePrincipalKey>] [<pat>] [<customFolder>]
