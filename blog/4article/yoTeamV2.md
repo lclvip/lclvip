@@ -61,105 +61,20 @@ yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](h
 - Docker images in Azure App Service on Linux
 - Azure Container Instances
 
-## 四、yo Team 使用指南
+## 四、yo Team 使用方式
 
-### 安装
+yo Team 本质上是由一些命令组成，包括父命令和子命令。通过组合这 些命令来实现按需生成流水线。比如 yo team:app 是一个父命，通过此命令即可完成TFS流水线的创建。
 
-**必须环境要求：**
+要使用yo Team, 我们有两种使用方式：交互模式和命令模式。
 
-- 安装 git, 需要用到git 推送示例代码
-- nodejs环境,Yeoman是用nodejs编写的，必须要有nodejs环境
-- npm，用来安装yo（Yeoman）
-- Azure Powershell
-- 如果采用的是私有云或是自己内部的数据中心，需保证TFS所在的服务器可以连接到外网
+**交互模式**：即文中开篇处的Gif图片中使用的方式。这种方式简单易用，推荐采用此方式。
 
-**Net项目所需的环境**
-
-- DotNet Core SDK 
-- Net Framework 3.5 或以上
-
-**Azure及Docker**
-
-- 如果想要示例程序部署成功，必须要一Azure订阅
-- 如果使用Docker的方式部署，还需要准备Docker镜像仓库
-
-参考此文档：http://donovanbrown.com/post/Yo-Team-meet-Azure-Container-Instances
+**命令模式**：采用`yo team:app`命令或是组合子命令的方式。除非有特别的定制化或是集成的需求可采用这种方式。
 
 
-**安装**
-
-- `npm install yo`
-- `npm install generator-team`
-- 分别运行 `yo和yoTeam`命令，测试是否安装成功
+## 六、命令模式的使用示例
 
 
-    注意：yo team 在Windows中默认会安装在当前命令行所处路径，建议安装到NPM包存放目录中，保证路径已经添加到环境变量 `Path`中。否则每次运行时，需要进入yo team安装的路径运行命令，稍微有不便。
-
-### 命令介绍
-
-- 查看已经安装的yo生成器: `yo --help`,可以看到命令行输出的低部，会显示已安装的生成器(team)和子生成器(asp等)
-
-```
-Available Generators:
-  team
-    asp
-    aspFull
-    azure
-    build
-    docker
-    git
-    java
-    node
-    pipeline
-    profile
-    project
-    registry
-    release
-```
-
-- 查看 yoteam 的使用方法,运行命令： `yo team -h 或yo team --help`.子命令：`yo team:asp -h 或yo team:project --help`
-
-```
- yo team:app [options] [<type>] [<applicationName>] [<tfs>] [<azureSub>] [<azureSubId>] [<tenantId>] [<servicePrincipalId>] [<queue>] [<target>] [<installDep>] [<groupId>] [<dockerHost>] [<dockerCertPath>] [<dockerRegistry>] [<dockerRegistryId>] [<dockerPorts>] [<dockerRegistryPassword>] [<servicePrincipalKey>] [<pat>] [<customFolder>]
-
-Options:
-  -h,   --help          # 使用帮助
-        --skip-cache    # 是否记住输入的参数       Default: false
-        --skip-install  # 是否自动安装依赖（VSTS/TFS 扩展）  Default: false
-
-Arguments:
-  type                    # 项目类型：asp, node, java or aspFull，Type: String  Required: false
-  applicationName         # 要创建的项目名称                              Type: String  Required: false
-  tfs                     # TFS 项目集合URL地址 或者是 VSTS account(URL地址的前缀) or Profile  Type: String  Required: false
-  azureSub                # Azure Subscription name                                Type: String  Required: false
-  azureSubId              # Azure Subscription ID                                  Type: String  Required: false
-  tenantId                # Azure Tenant ID                                        Type: String  Required: false
-  servicePrincipalId      # Azure Service Principal Id                             Type: String  Required: false
-  queue                   # Agent queue to use                                     Type: String  Required: false
-  target                  # Docker or Azure app service                            Type: String  Required: false
-  installDep              # If true dependencies are installed                     Type: String  Required: false
-  groupId                 # Group ID of Java project                               Type: String  Required: false
-  dockerHost              # Docker host url including port                         Type: String  Required: false
-  dockerCertPath          # Path to Docker certs folder                            Type: String  Required: false
-  dockerRegistry          # Server of your Docker registry                         Type: String  Required: false
-  dockerRegistryId        # Username for Docker registry                           Type: String  Required: false
-  dockerPorts             # Port mapping for container and host                    Type: String  Required: false
-  dockerRegistryPassword  # Password for your Docker registry                      Type: String  Required: false
-  servicePrincipalKey     # Azure Service Principal Key                            Type: String  Required: false
-  pat                     # Personal Access Token to TFS/VSTS                      Type: String  Required: false
-  customFolder            # Path to folder of build & release templates            Type: String  Required: false
-
-```
-
-## 五、直接以一问一答的交互模式来运行命令
-
-通常，我们如果仅仅是人个学习使用VSTS或者是TFS，在命令行直接运行 `yo team`即可，在命令行根据提示采用一问一答的交互方式来创建示例项目，比较简单，这里不作详细说明了。
-
-## 六、以单个命令的形式运行命令
-
-我们有很多客户，而且每个客户也有多个试点团队，要求每个人都去命令行敲这些命令，并准备一堆参数，这基本上不太可能，所以，我们在想，是否有更好的方式来应对这些个场景？答案是有！！！
-
-看到前面介绍的子命令了吧？没看到，再往上看看，有感觉了吧？-_-!
 
 **team:app 命令**
 
