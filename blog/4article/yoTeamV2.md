@@ -74,11 +74,41 @@ yo Team 本质上是由一些命令组成，包括父命令和子命令。通过
 
 ## 六、命令模式的使用示例
 
+**yo team:app** 命令参数(`yo team:asp -h`)
 
+```
+ yo team:app [options] [<type>] [<applicationName>] [<tfs>] [<azureSub>] [<azureSubId>] [<tenantId>] [<servicePrincipalId>] [<queue>] [<target>] [<installDep>] [<groupId>] [<dockerHost>] [<dockerCertPath>] [<dockerRegistry>] [<dockerRegistryId>] [<dockerPorts>] [<dockerRegistryPassword>] [<servicePrincipalKey>] [<pat>] [<customFolder>]
 
-**team:app 命令**
+Options:
+  -h,   --help          # 使用帮助
+        --skip-cache    # 是否记住输入的参数       Default: false
+        --skip-install  # 是否自动安装依赖（VSTS/TFS 扩展）  Default: false
 
-有一个 `team:app`的子命令，配以参数后可以直接触发Demo的创建，以下是TFS的示例：
+Arguments:
+  type                    # 项目类型：asp, node, java or aspFull，Type: String  Required: false
+  applicationName         # 要创建的项目名称                              Type: String  Required: false
+  tfs                     # TFS 项目集合URL地址 或者是 VSTS account(URL地址的前缀) or Profile  Type: String  Required: false
+  azureSub                # Azure Subscription name                                Type: String  Required: false
+  azureSubId              # Azure Subscription ID                                  Type: String  Required: false
+  tenantId                # Azure Tenant ID                                        Type: String  Required: false
+  servicePrincipalId      # Azure Service Principal Id                             Type: String  Required: false
+  queue                   # Agent queue to use                                     Type: String  Required: false
+  target                  # Docker or Azure app service                            Type: String  Required: false
+  installDep              # If true dependencies are installed                     Type: String  Required: false
+  groupId                 # Group ID of Java project                               Type: String  Required: false
+  dockerHost              # Docker host url including port                         Type: String  Required: false
+  dockerCertPath          # Path to Docker certs folder                            Type: String  Required: false
+  dockerRegistry          # Server of your Docker registry                         Type: String  Required: false
+  dockerRegistryId        # Username for Docker registry                           Type: String  Required: false
+  dockerPorts             # Port mapping for container and host                    Type: String  Required: false
+  dockerRegistryPassword  # Password for your Docker registry                      Type: String  Required: false
+  servicePrincipalKey     # Azure Service Principal Key                            Type: String  Required: false
+  pat                     # Personal Access Token to TFS/VSTS                      Type: String  Required: false
+  customFolder            # Path to folder of build & release templates            Type: String  Required: false
+
+```
+
+**命令示例：**
 
 ```
 yo team:app --skip-cache false asp YoTeamDemoApplxm1 "http://{TFS登陆帐号}:{密码}@{tfs集合URL地址}" "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff Default paasslots true 1 1 1 1 1 1 1 {servicePrincipalKey} {tfsPAT} YoTeamDemoApplxm1
@@ -221,100 +251,9 @@ git push
 
 NOTE: 以上命令中的`YoTeamDemoApp`表示一个将要创建的TFS 团队项目名称，执行以上整套命令时，需保证此名称在TFS项目集合不存在。
 
-接下来，我们偿试在TFS Build的执行上面的命令。
-
-NOTE: queue 参数值建议用Default（执行yo team命令的构建服务器也注册到Default队列下），不能包含 横杠，否则会报以下错误（也许是一个yoteam 的一个BUG）：
-
-```
-+ Found Azure Service Endpoint 'Visual Studio Enterprise - MPN'                                  
-C:\Users\liminany\node_modules\generator-team\generators\app\utility.js:668                      
-         callback(null, obj.value[0].id);                                                        
-                                    ^  
-TypeError: Cannot read property 'id' of undefined                                                
-    at Request._callback (C:\Users\liminany\node_modules\generator-team\generators\app\utility.js
-:668:37)                                                                                         
-    at Request.self.callback (C:\Users\liminany\node_modules\request\request.js:186:22)          
-    at emitTwo (events.js:106:13)                                                                
-    at Request.emit (events.js:191:7)                                                            
-    at Request.<anonymous> (C:\Users\liminany\node_modules\request\request.js:1163:10)           
-    at emitOne (events.js:96:13)                                                                 
-    at Request.emit (events.js:188:7)                                                            
-    at IncomingMessage.<anonymous> (C:\Users\liminany\node_modules\request\request.js:1085:12)   
-    at IncomingMessage.g (events.js:292:16)                                                      
-    at emitNone (events.js:91:20)                                                                
-```
-
-## 八、使用TFS Build来创建TFS Demo项目
-
-我们需要做两件事情：
-
- - 在TFS中创建一个Build定义，添加一个命令行或是Powershell任务
- - 把上面命令中的输入参数使用TFS Build变量 参数化
 
 
-如下图所示：
-
-![](images/yoTeam/ci-1.png) . 
-
-![](images/yoTeam/ci-2.png) . 
-
-
-可以看到，yo team的参数都已经改成了参数化的形式，而不是hard Code命令中，这样有更灵活，不仅仅是在我自己的TFS服务器中执行、创建Demo项目，可以是任何人，只要把对应的参数修改成自己的值即可（另外在VSTS也是一样的道理）。
-
-上面的任务中还包含了`Replace tokens in labs-result-template.json和发布生成项目`等任务，这些任务是将yo team 创建好的TFS Demo项目信息提取出来了，以便我们后续的步骤中与其他系统或功能进行集成时，可以显示和快速的访问这些地址（如TFS团队项目地址、Git仓库地址等）
-
-
-总算完成了，经过使用，示例项目中的示例Web程序部署到Azure后，可以在Azure资源组中找到，并访问此网站：
-
-```
-http://{Demo项目名}{四位随机数}Dev.azurewebsites.net
-http://{Demo项目名}{四位随机数}QA.azurewebsites.net
-http://{Demo项目名}{四位随机数}Prod.azurewebsites.net
-```
-
-但是但是,问题又来了,用户怎么访问到这个地址呢?不可能登陆Azure Portal吧? 看来需要自动获取Web程序的访问地址。其实这个地址有规律,但是为什么会加一串数字? 
-
-
-原来为了保证项目名称及其他资源唯一性,他这里加了随机数.这个时候去查看了代码,果然是,那怎么解决?改代码是下下策,先看看Azure中的资源组是怎么创建的.
-
-经过研究，发现 文件`generator-team/generators/release/templates/tfs_2018_release.json` 有以下代码：
-
-
-![](images/yoTeam/cd-source-uuid.png) . 
-
-喔,原来是这样创建的,用的就是ARM模板,那直接改模板就好啦.
-
-## 九、修改yo team源码
-
-从Github Fork仓库,在Clone到本地,开改.
-
-找到文件 `generator-team/generators/release/templates/tfs_2018_release.json`：去掉随机数变量{uuid}：
-
-![](images/yoTeam/cd-source-uuid.png) . 
-
-然后打开`package.json`,修改一下源码版本:
-
-![](images/yoTeam/source-package-ver.png)
-
-运行`NPM Link`，链接本地代码，进行测试,此处不在详细解释。
-
-最后附上修改好的源码地址： https://github.com/lean-soft/generator-team
-
-最后，TFS的构建服务器如何安装修改后的版本？
-yoteam这个命令是通过运行NPM命令从NPM仓库获取下来安装的，看来我也要搭建一个包管理仓库才可以啊！正好，TFS有一个Packages Manage的功能（VSTS也有），目前支持四种类型源包（TFS2018 Update2）。如下图所示：
-
-![](images/yoTeam/tfs-package-info.png) . 
-
-## 十、使用TFS中的包管理来发布 定制化的yo team 包
-
-请参以下考官方文档：
-
-[Quickstart: Use npm to store JavaScript packages in VSTS or TFS](https://docs.microsoft.com/zh-cn/vsts/package/get-started-npm?view=vsts)
-
-[Publish an npm package](https://docs.microsoft.com/zh-cn/vsts/packageteam:app 命令/npm/publish?view=vsts)
-
-
-## 十一、总结
+## 八、总结
 
 这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
 
