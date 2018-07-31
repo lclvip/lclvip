@@ -182,88 +182,35 @@ cd YoTeamDemoApplxm1
 git push
 ```
 
-#### 至此，大功告成！
-
-NOTE: 如果想偿试其他类型的项目，修改参数 `type` 即可，支持的参数值有：asp, node, java、aspFull
-
-#### 在微软研发云vsts中创建Demo项目
-
-参考以下命令，使用方式类似,此处不在详细解释
-
-```
-yo team:app  --skip-cache false "asp" "DemoApp122" "lean-soft-lxm-demo" "Visual Studio Enterprise – MPN" "5132f8c8-ccfc-4613-9424-d08bf5e6d1f6" "31270f2c-e7a0-4267-8efc-907830f44d12" "d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff"  "Hosted VS2017" "paasslots" false "1" "1" "1" "1" "1" "1" "1" "{servicePrincipalKey}" "{TFS PAT}" "DemoApp122"
-
-```
-
 ## 七、以组合命令的方式来执行
 
 以组合命令的方式来运行的好处是我们可以决定何时候创建Demo项目里面的内容，并与自己的工具进行集成，以下是 yo team:app 命令中包含的子命令：
 
-- `yo team:project` 创建团队项目
-
-```
-yo team:project --skip-cache false "YoTeamDemoApp"  https://tfs.devopshub.cn/TestCollection {TFS PAT}
-```
-
-- `yo team:azure` 创建Azure订阅的服务终结点，用于部署网站到指定的订阅帐户中
-
-```
-yo team:azure --skip-cache false "YoTeamDemoApp"   https://tfs.devopshub.cn/TestCollection "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff {servicePrincipalKey} {TFS PAT}
-```
-
-- `yo team:build` 创建构建定义
-
-```
-yo team:build --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/TestCollection default paasslots "1" "1" "1" {TFS PAT} YoTeamDemoApp
-```
-
-- `yo team:pipeline` 创建部署流水线
-
-```
-yo team:pipeline --skip-cache false asp "YoTeamDemoApp" https://tfs.devopshub.cn/TestCollection default paasslots "Visual Studio Enterprise - MPN" 5132f8c8-ccfc-4613-9424-d08bf5e6d1f6 31270f2c-e7a0-4267-8efc-907830f44d12 d0bdbd2f-b9e9-47a1-8d5a-179d153f5bff 1 1 1 1 1 1 {servicePrincipalKey} {TFS PAT} "YoTeamDemoApp"
-```
-
-- `yo team:git **** clone` 从创建好的Demo项目中克隆git仓库
-
-```
-yo team:git --skip-cache false "YoTeamDemoApp" http://tfs帐号:tfs密码@tfs.devopshub.cn/TestCollection clone {TFS PAT}
-```
-
-- `yo team:asp` 创建示例程序代码到指定的本地git目录
-
-```
-yo team:asp --skip-cache false "YoTeamDemoApp" false 1
-```
-
-- `yo team:git **** commit` 将上一步创建的代码添并提交到git仓库
-
-```
-yo team:git --skip-cache false "YoTeamDemoApp" 
-http://{tfs 帐号}:{密码}@tfs.devopshub.cn/TestCollection commit {TFS PAT}
-```
-
-- 推送到TFS服务器，推送成功后，会自动触发上面创建的Build 定义,成功后会触发上面创建部署流水线
-
-```
-cd YoTeamDemoApp
-git push
-```
-
-NOTE: 以上命令中的`YoTeamDemoApp`表示一个将要创建的TFS 团队项目名称，执行以上整套命令时，需保证此名称在TFS项目集合不存在。
-
+yo team:project {参数} 
+yo team:azure {参数} 
+yo team:build {参数} 
+yo team:pipeline {参数} 
+yo team:git {参数} clone {参数} 
+yo team:asp {参数} 
+yo team:git {参数} commit {参数} 
 
 
 ## 八、总结
+
+yo Team介绍完毕，除了TFS，yo Team 还支持微软研发云(VSTS), 使用方式与TFS类似。 如果想偿试其他类型的项目，修改上面命令中的参数 `type` 即可，支持的参数值有：asp, node, java、aspFull
 
 这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
 
  - 直接安装yo team官方版本
  - 创建TFS Build定义，使用上面提供的命令做为任务的命令
- - 修改参数值
+ - 修改参数值，建议参数化变量
  - 触发Build 定义即可
 
+更详细的使用帮助，请参考这篇文章：[使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](https://liminany.github.io/m/#!./blog/4article/yoTeam.md)
+__________________________________________
 
-最终，我们已将yo team 集成到了自己的研发测试云产品中：
+
+**最终，我们已将yo team 集成到了自己的研发测试云产品中：**
 
 ![](images/yoTeam/labs-project.png) . 
 
