@@ -214,17 +214,18 @@ __________________________________________
 
 **除此之外：**
 
+
 - Azure针对VSTS有项功能，可实现类似的效果，功能更完善，叫 Azure DevOps Project，[详情请参阅这里](https://docs.microsoft.com/zh-cn/vsts/pipelines/apps/cd/azure/azure-devops-project-aspnetcore?toc=%2Fvsts%2Fdeploy-azure%2Ftoc.json&;bc=%2Fvsts%2Fdeploy-azure%2Fbreadcrumb%2Ftoc.json&view=vsts)
 
 - 针对VSTS，有一套更丰富的动手实验，可以使用一个叫 VSTS DemoGenerator 的工具来生成示例项目，参考地址：https://almvm.devopshub.cn/labs/vsts/
 
 - 针对TFS，也有一套更丰富的动手实验，但需自行下载虚拟镜像到本地，并将虚拟机运行起来才可以体验这套动手实验。如果想省事，我们的研发测试去产品提供了一套环境模板，具有一键式体验, 如下图所示：
     
-    ![](images/yoTeam/labs-environment-almvm.png) . 
+![](images/yoTeam/labs-environment-almvm.png) . 
 
-    对应的练习文档请参考以下两个地址：
+对应的练习文档请参考以下两个地址：
 
-     - [中文版，由我们翻译并托管在github上 ](https://almvm.devopshub.cn/labs/tfs/agile/)，结合上图的 [TFS2018培训环境使用]()
+[中文版，由我们翻译并托管在github上 ](https://almvm.devopshub.cn/labs/tfs/agile/)，结合上图的 [TFS2018培训环境使用]()
 
-     - [英文原版](https://almvm.azurewebsites.net/labs/tfs/), 需自行下载虚拟机来使用
+[英文原版](https://almvm.azurewebsites.net/labs/tfs/), 需自行下载虚拟机来使用
   
