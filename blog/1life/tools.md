@@ -1,5 +1,15 @@
 # 记录一切小工具
 
+## 多人协作在线翻译工具
+
+http://co.yeeyan.org/view/5116427
+https://netivism.com.tw/article/304
+https://termsoup.com/zh-CN/welcome
+
+http://doc.yeekit.com/index.html
+
+开源工具：https://www.oschina.net/translate/open-source-localization-tools
+
 ## 打开Win任务计划命令
 
 -  Control Schedtasks

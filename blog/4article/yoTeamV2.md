@@ -1,19 +1,19 @@
 # 使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线
 
 ## 背景
-   如今，DevOps势头异常猛烈，从C端的互联网企业到B端传统软件企业都在陆续开展DevOps转型。有从文化/管理理念层面开始转型的，也有从技术层面（工具链）开始转型的，工具链层面要么是开源方案（Jenkins），要么引入大厂的产品（Jira、TFS），首先，想改变是非常棒的一个决定，在数字化经济时代和知识大暴炸时代，先迈出第一步拥抱敏捷开发和精益思想总比那些还固守传统工业时代的经营理念的企业具有更多机会。好，现在那问题来了，如果我们要从工具链层面入手，有没有一种办法快速搭建基础环境，一键生成持续交付流水线的方法呢？答案是：当然有，Visual Studio Team Service和Team Foundation Server 可以做到！！！！试想，不用自己准备虚拟机，也不用自己安装测试环境、配置环境，交付流水线也不需要自己配置，只需要点几次鼠标，是多么愉快的事情啊，可以节省非常多的时间。通过试用生成的环境，我们可以快速评估平台能力，确认是否符合自己的团队；还可以学习这其中的最佳实践，让我们快速上手。
+   如今，DevOps势头异常猛烈，从C端的互联网企业到B端传统软件企业都在陆续开展DevOps转型。有从文化/管理理念层面开始转型的，也有从技术层面（工具链）开始转型的，工具链层面要么是开源方案（Jenkins），要么引入大厂的产品（Jira、TFS），首先，想改变是非常棒的一个决定，在数字化经济时代和知识大暴炸时代，先迈出第一步拥抱敏捷开发和精益思想总比那些还固守传统工业时代的经营理念的企业具有更多机会。好，现在那问题来了，如果我们要从工具链层面入手，有没有一种办法快速搭建基础环境，一键生成持续交付流水线的方法呢？答案是：当然有，Visual Studio Team Service 和 Team Foundation Server 可以做到！！！！试想，不用自己准备虚拟机，也不用自己安装测试环境、配置环境，交付流水线也不需要自己配置，只需要点几次鼠标，是多么愉快的事情啊，可以节省非常多的时间。通过试用生成的环境，我们可以快速评估平台能力，确认是否符合自己的团队；还可以学习这其中的最佳实践，让我们快速上手。
 
 ## 概述
    要达成上面的目标我们有两种实现方式：采用云端（VSTS，微软研发云）；或者是，在Azure云端创建TFS环境，第一种方式不是我们现在的重点，这一次我们重点介绍第二种方式。
 
 ## 一、在Azure云端创建一套TFS2018环境
 
-通过使用我们的[研发测试去产品]()，可在Azure云端创建一套TFS2018环境，具备一键式体验，免去自己安装系统、软件环境、配置等工作，使得我们可以只关注要实现的目标。环境模板如下图示所：
+通过使用我们的开发测试云产品，可在Azure云端创建一套TFS2018环境，具备一键式体验，免去自己安装系统、
+软件环境、配置等工作，使得我们可以只关注要实现的目标。环境模板如下图示所：
 
 ![](images/yoTeam/labs-environment.png) . 
 
-NOTE: 当然，如果您是私有云，有自己的数据中心，则可以在自己的
-TFS服务器中使用yoTeam自动创建持续交付流水线，方法是通用的。
+NOTE: 当然，如果您是私有云，有自己的数据中心，则可以在自己的TFS服务器中使用yoTeam自动创建持续交付流水线，方法是通用的。
 
 ## 二、在TFS2018环境中创建持续交付流水线
 
@@ -25,23 +25,38 @@ TFS服务器中使用yoTeam自动创建持续交付流水线，方法是通用�
 
 ![](images/yoTeam/yoteam-ok-git.gif) . 
 
+
+
+
 **看看创建出来的效果**
+
+yoteam自动创建了团队项目和团队配置(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image1.png)
 
+
+基础代码已经导入到Git存储库(如下图所示)：
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image2.png)
 
+
+持续集成 CI 已经配置完成(如下图所示)：
+
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image3.png)
+
+
+自动化部署流水线已经配置完成，并链接到了Azure云中的Paas服务，直接触发即可完成部署(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image4.png)
 
 
 ## 三、关于 yoTeam
 
-yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](https://github.com/DarqueWarrior/generator-team)。通过执行工具中提供的命令，可以帮助我们在TFS或是VSTS中快速创建 一套CI/CD 部署流水线. 作者是微软的一位` Principal DevOps Manager`, yo team 使用介绍 可以参考[大神的博客](http://donovanbrown.com/post/yo-Team)
+yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](https://github.com/DarqueWarrior/generator-team)。通过执行工具中提供的命令，可以帮助我们在TFS或是VSTS中快速创建 一套CI/CD 部署流水线. 作者是微软的一位` Principal DevOps Manager`, yo team 使用介绍 可以参考[大神的博客](http://donovanbrown.com/post/yo-Team)。
 
+![image.png](/.attachments/image-5e2cc025-c041-4e2f-918f-f9fc3f066a18.png)
 
-  [Yeoman](http://yeoman.io/) 是一款神器，简单来说通过Yeoman的生成器可以快速创建建一套项目，项目包含种最佳实践,并可以集成最流行的工具，使我们在项目开始时可立即上手，提升效率，而不是从0开始搭建自己的框架，引入开发环境所需的工具。Yeoman的生成器的插件市场中有很多实用的生成器，如 JHipster,做Java开发的应该会知道此生成器，号称让程序员失业的神器，[详细可参考知乎的讨论](https://www.zhihu.com/question/51082079/answer/146337049)
+  [Yeoman](http://yeoman.io/) 是一款神器，简单来说通过Yeoman的生成器可以快速创建建一套项目，项目包含种最佳实践，并可以集成最流行的工具，使我们在项目开始时可立即上手，提升效率，而不是从0开始搭建自己的框架，引入开发环境所需的工具。Yeoman的生成器的插件市场中有很多实用的生成器，如 JHipster,做Java开发的应该会知道此生成器，号称让程序员失业的神器，[详细可参考知乎的讨论](https://www.zhihu.com/question/51082079/answer/146337049)
 
 回到yoTeam，可以看到支持以下开发语言
 
@@ -59,9 +74,7 @@ yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](h
 
 ## 四、yo Team 使用方式
 
-yo Team 本质上是由一些命令组成，包括父命令和子命令。通过组合这 些命令来实现按需生成流水线。比如 yo team:app 是一个父命，通过此命令即可完成TFS流水线的创建。
-
-要使用yo Team, 我们有两种使用方式：交互模式和命令模式。
+yo Team 本质上是由一些命令组成，包括父命令和子命令。通过组合这 些命令来实现按需生成流水线。比如 yo team:app 是一个父命，通过此命令即可完成TFS流水线的创建。要使用yo Team, 我们有两种使用方式：交互模式和命令模式。
 
 **交互模式**：即文中开篇处的Gif图片中使用的方式。这种方式简单易用，推荐采用此方式。
 
@@ -193,9 +206,7 @@ yo team:git {参数} commit {参数}
 
 ## 七、总结
 
-yo Team介绍完毕，除了TFS，yo Team 还支持微软研发云(VSTS), 使用方式与TFS类似。 如果想偿试其他类型的项目，修改上面命令中的参数 `type` 即可，支持的参数值有：asp, node, java、aspFull
-
-这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾:
+yo Team介绍完毕，除了TFS，yo Team 还支持微软研发云(VSTS), 使用方式与TFS类似。 如果想偿试其他类型的项目，修改上面命令中的参数 type 即可，支持的参数值有：asp, node, java、aspFull。这里记录了对yo team的探索的过程，如果您只是想使用yo team 创建Deom项目，那不必折腾：
 
  - 直接安装yo team官方版本
  - 创建TFS Build定义，使用上面提供的命令做为任务的命令
@@ -210,9 +221,13 @@ __________________________________________
 
 ![](images/yoTeam/labs-project.png) . 
 
-如果您想拥有一键式体验，敬请期待吧，新版本即将上线！
+如果您想拥有一键式体验，敬请期待吧，新版本即将上线，特性介绍见下面的视频：
 
-**除此之外：**
+<iframe width="660" height="415" src="https://v.youku.com/v_show/id_XMzc2MTI5OTI2MA==.html" frameborder="0" allowfullscreen></iframe>
+
+
+
+### **除此之外：**
 
 
 - Azure针对VSTS有项功能，可实现类似的效果，功能更完善，叫 Azure DevOps Project，[详情请参阅这里](https://docs.microsoft.com/zh-cn/vsts/pipelines/apps/cd/azure/azure-devops-project-aspnetcore?toc=%2Fvsts%2Fdeploy-azure%2Ftoc.json&;bc=%2Fvsts%2Fdeploy-azure%2Fbreadcrumb%2Ftoc.json&view=vsts)
