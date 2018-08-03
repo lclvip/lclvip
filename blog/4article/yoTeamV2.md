@@ -223,7 +223,7 @@ __________________________________________
 
 如果您想拥有一键式体验，敬请期待吧，新版本即将上线，特性介绍见下面的视频：
 
-<iframe width="660" height="415" src="#" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="415" src="https://v.youku.com/v_show/id_XMzc2MTI5OTI2MA==.html" frameborder="0" allowfullscreen></iframe>
 
 
 
