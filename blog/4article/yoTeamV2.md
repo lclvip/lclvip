@@ -25,24 +25,27 @@ NOTE: 当然，如果您是私有云，有自己的数据中心，则可以在�
 
 ![](images/yoTeam/yoteam-ok-git.gif) . 
 
+
+
+
 **看看创建出来的效果**
 
-yoteam自动创建了团队项目和团队配置：
+yoteam自动创建了团队项目和团队配置(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image1.png)
 
 
-基础代码已经导入到Git存储库：
+基础代码已经导入到Git存储库(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image2.png)
 
 
-持续集成 CI 已经配置完成：
+持续集成 CI 已经配置完成(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image3.png)
 
 
-自动化部署流水线已经配置完成，并链接到了Azure云中的Paas服务，直接触发即可完成部署：
+自动化部署流水线已经配置完成，并链接到了Azure云中的Paas服务，直接触发即可完成部署(如下图所示)：
 
 ![](https://raw.githubusercontent.com/lean-soft/labs-templates/master/lsproj101-yoteam-asp/labs/images/image4.png)
 
