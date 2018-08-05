@@ -54,7 +54,7 @@ yoteam自动创建了团队项目和团队配置(如下图所示)：
 
 yoTeam 是一个基于 Yeoman 的开源的生成器，代码托管到 [Github](https://github.com/DarqueWarrior/generator-team)。通过执行工具中提供的命令，可以帮助我们在TFS或是VSTS中快速创建 一套CI/CD 部署流水线. 作者是微软的一位` Principal DevOps Manager`, yo team 使用介绍 可以参考[大神的博客](http://donovanbrown.com/post/yo-Team)。
 
-![image.png](/.attachments/image-5e2cc025-c041-4e2f-918f-f9fc3f066a18.png)
+![](images/yoTeam/image-5e2cc025-c041-4e2f-918f-f9fc3f066a18.png)
 
   [Yeoman](http://yeoman.io/) 是一款神器，简单来说通过Yeoman的生成器可以快速创建建一套项目，项目包含种最佳实践，并可以集成最流行的工具，使我们在项目开始时可立即上手，提升效率，而不是从0开始搭建自己的框架，引入开发环境所需的工具。Yeoman的生成器的插件市场中有很多实用的生成器，如 JHipster,做Java开发的应该会知道此生成器，号称让程序员失业的神器，[详细可参考知乎的讨论](https://www.zhihu.com/question/51082079/answer/146337049)
 
