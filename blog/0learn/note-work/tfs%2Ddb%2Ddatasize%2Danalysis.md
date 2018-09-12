@@ -115,6 +115,8 @@ GROUP BY OwnerId
 ORDER BY 2 DESC
 ```
 
+![image.png](/.attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png)
+
 ## the FileContainer space
 ```
 SELECT CASE WHEN Container = 'vstfs:///Buil' THEN 'Build'
@@ -140,6 +142,7 @@ AND fm.PartitionId = c.PartitionId
 GROUP BY c.Container
 ORDER BY TotalSizeInMB DESC
 ```
+![image.png](/.attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png)
 
 ## clear at once 
 
