@@ -160,13 +160,13 @@ Figure 3 生成清理内容配置
 
 - 1、首先，使用Sql Server Management Studio（SMSS）连接到TFS数据库服务器，执行以下脚本，查看各集合库所占的空间：
 
-`
+```
 use master
 select DB_NAME(database_id) AS DBName, (size/128) SizeInMB
  FROM sys.master_files 
  where type=0  and substring(db_name(database_id),1,4)='Tfs_' 
 and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
-`
+```
 
 结果如下图所示：
 
@@ -184,7 +184,7 @@ and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 
 - 4、 分析 tbl_Content 存储的是哪些类型的数据,在集合库中执行下面的脚本：
 
-`
+```
 SELECT Owner = 
 CASE
 WHEN OwnerId = 0 THEN 'Generic' 
@@ -213,7 +213,7 @@ AND r.PartitionId = m.PartitionId
 WHERE r.PartitionId = 1
 GROUP BY OwnerId
 ORDER BY 2 DESC
-`
+```
 
 ![image.png](/.attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png)
 
@@ -252,7 +252,7 @@ ORDER BY TotalSizeInMB DESC
 
 - 6、 最后还可以分析一下近两个年数据增长的情况
   
-`
+```
 select DATEPART(yyyy, CreationDate) as [year],
   DATEPART(mm, CreationDate) as [month],
   count(*) as [count],
@@ -263,7 +263,7 @@ group by DATEPART(yyyy, CreationDate),
     DATEPART(mm, CreationDate)
 order by DATEPART(yyyy, CreationDate),
     DATEPART(mm, CreationDate)
-`
+```
 
 ![image.png](/.attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png)
 
