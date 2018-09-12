@@ -181,14 +181,14 @@ and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 
 结果如下图所示：
 
-![image.png](/.attachments/image-bb562b5c-e1d1-42c6-add7-b450f1b1708e.png)
+![image.png](/attachments/image-bb562b5c-e1d1-42c6-add7-b450f1b1708e.png)
 
 
 - 2、 使用 SMSS 的报告功能分析集合库中各表所占用的存储空间
 
-![image.png](/.attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png)
+![image.png](/attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png)
 
-![image.png](/.attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png)
+![image.png](/attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png)
 
 如所上图所示，通常是：**tbl_Content** 表占用比较大.
 
@@ -226,7 +226,7 @@ GROUP BY OwnerId
 ORDER BY 2 DESC
 ```
 
-![image.png](/.attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png)
+![image.png](/attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png)
 
 
 - 5、 分析 tbl_Container 占用的空间
@@ -258,7 +258,7 @@ ORDER BY TotalSizeInMB DESC
 
 结果如下图：
 
-![image.png](/.attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png)
+![image.png](/attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png)
 
 
 - 6、 最后还可以分析一下近两个年数据增长的情况
@@ -276,7 +276,7 @@ order by DATEPART(yyyy, CreationDate),
     DATEPART(mm, CreationDate)
 ```
 
-![image.png](/.attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png)
+![image.png](./attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png)
 
 - 7 、通过上面的分析，我们大致可以确定是哪结数据占用了较大的空间，结合前面的TFS 流水线设置和测试文件保留策略设置，让TFS自动清理这部分数据。
 
