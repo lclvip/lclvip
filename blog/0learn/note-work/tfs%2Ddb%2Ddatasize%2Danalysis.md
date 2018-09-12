@@ -64,6 +64,9 @@ GO
 Drop table #t
 ```
 
+![image.png](/.attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png)
+
+
 ```
 SELECT TOP 10 o.name, 
 SUM(reserved_page_count) * 8.0 / 1024 SizeInMB,
