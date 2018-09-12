@@ -190,10 +190,10 @@ and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 
 ![image.png](/.attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png)
 
-如所图所示，通常是：tbl_Content 表占用比较大.
+如所上图所示，通常是：**tbl_Content** 表占用比较大.
 
 
-- 4、 分析 tbl_Content 存储的是哪些类型的数据,在集合库中执行下面的脚本：
+- 4、 分析 tbl_Content 存储的是哪些类型的数据占用空间较大，在集合库中执行下面的脚本：
 
 ```
 SELECT Owner = 
@@ -289,4 +289,6 @@ order by DATEPART(yyyy, CreationDate),
 
 ##  六、总结
 
+本文围绕TFS的数据库存储优化介绍了文档、构建包等文件的存放建议，同时也介绍了一些TFS中的配置策略。对于构建包，还是强烈建议引入（如果能）采用二进制文件存储仓库（Aftifact Repository），这也是DevOps 中很重要的一项工程实践。
 
+后面提到的  TFS 数据占用分析 ，是在事后进行分析和补救。因此，我们在最开始使用TFS时能注意这些方面最好不过了，特别是在团队规模和项目规模较大时，犹为重要。
