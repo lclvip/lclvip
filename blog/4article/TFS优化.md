@@ -173,7 +173,7 @@ Figure 3 生成清理内容配置
 
 ```
 use master
-select DB_NAME(database_id) AS DBName, (size/128) SizeInMB
+select DB_NAME(database_id) AS DBName, (size/128) SizeInMB 
  FROM sys.master_files 
  where type=0  and substring(db_name(database_id),1,4)='Tfs_' 
 and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
