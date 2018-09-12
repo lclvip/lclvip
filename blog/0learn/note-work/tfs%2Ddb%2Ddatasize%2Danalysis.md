@@ -14,7 +14,7 @@ group by DATEPART(yyyy, CreationDate),
 order by DATEPART(yyyy, CreationDate),
     DATEPART(mm, CreationDate)
 ```
-
+![image.png](/.attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png)
 
 ## get all the tbl_content rows which have no matching in the tbl_FileMetadata
 
