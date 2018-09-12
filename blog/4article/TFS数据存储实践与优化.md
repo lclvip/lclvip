@@ -117,7 +117,7 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 
 可以设置Git存储库中单个文件最大的大小，建议设置为100M
 
-![](media/5fa3a654023d264c1902d1735d3d26d2.png)
+![](media/5fa3a654023d264c1902d1735d3d26d2.png) .
 
 
 ## 三、 构建包管理
@@ -138,15 +138,15 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 
 在TFS CI/CD 流水线配置中，可以设置保留的周期和自动清理时清理的内容，如下图：
 
-![](media/e6d51c41d827b2b62df8ad6f5bd68a44.png)
+![](media/e6d51c41d827b2b62df8ad6f5bd68a44.png) .
 
 Figure 1 TFS 生成和发布定期清理策略-集合级别
 
-![](media/ffd79f6f3a640164f3205c1b6fc63b79.png)
+![](media/ffd79f6f3a640164f3205c1b6fc63b79.png) .
 
 Figure 2 发布保留策略-团队项目 级别
 
-![](media/8693fba462de2d2ee50a25578a5988c9.png)
+![](media/8693fba462de2d2ee50a25578a5988c9.png) .
 
 Figure 3 生成清理内容配置
 
@@ -155,7 +155,7 @@ Figure 3 生成清理内容配置
 
 在执行 手工测试（TestRun）时、触发CICD部署流水线后（测试结果、及代码分析结果）、使用TestManager工具（会产生图片、附件、录屏）、浏览器测试插件Test &Feedback（产生图片、附件、录屏） 等，所产生的数据都存储在数据库中，而且包括大量的二进制文件，会占用比较大的数据库存储空间，通常我们在TFS中可以配置这些数据保留的期限，如下图：
 
-![](media/9fbb3a4883f44945fd89b19581381a20.png)
+![](media/9fbb3a4883f44945fd89b19581381a20.png) .
 
 如果经过分析后（参考下面的TFS 数据占用分析），测试部分还是会占用很大一部分空间，可以使用专用的工具Tcmpt 清理。
 
@@ -181,14 +181,14 @@ and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 
 结果如下图所示：
 
-![image.png](attachments/image-bb562b5c-e1d1-42c6-add7-b450f1b1708e.png)
+![image.png](attachments/image-bb562b5c-e1d1-42c6-add7-b450f1b1708e.png) .
 
 
 - 2、 使用 SMSS 的报告功能分析集合库中各表所占用的存储空间
 
-![image.png](attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png)
+![image.png](attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png) .
 
-![image.png](attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png)
+![image.png](attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png) .
 
 如所上图所示，通常是：**tbl_Content** 表占用比较大.
 
@@ -226,7 +226,7 @@ GROUP BY OwnerId
 ORDER BY 2 DESC
 ```
 
-![image.png](attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png)
+![image.png](attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png) .
 
 
 - 5、 分析 tbl_Container 占用的空间
@@ -258,7 +258,7 @@ ORDER BY TotalSizeInMB DESC
 
 结果如下图：
 
-![image.png](attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png)
+![image.png](attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png) .
 
 
 - 6、 最后还可以分析一下近两个年数据增长的情况
@@ -276,7 +276,7 @@ order by DATEPART(yyyy, CreationDate),
     DATEPART(mm, CreationDate)
 ```
 
-![image.png](attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png)
+![image.png](attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png) .
 
 - 7 、通过上面的分析，我们大致可以确定是哪结数据占用了较大的空间，结合前面的TFS 流水线设置和测试文件保留策略设置，让TFS自动清理这部分数据。
 
