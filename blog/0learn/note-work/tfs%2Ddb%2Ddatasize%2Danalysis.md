@@ -36,6 +36,8 @@ select DB_NAME(database_id) AS DBName, (size/128) SizeInMB
  where type=0  and substring(db_name(database_id),1,4)='Tfs_' and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 ```
 
+![image.png](/.attachments/image-bb562b5c-e1d1-42c6-add7-b450f1b1708e.png)
+
 ##  find out which tables are large
 
 https://developercommunity.visualstudio.com/content/problem/63712/tfs-database-size.html
