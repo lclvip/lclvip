@@ -66,6 +66,8 @@ Drop table #t
 
 ![image.png](/.attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png)
 
+![image.png](/.attachments/image-63671e32-0eb8-4c35-bd68-d088a13df54d.png)
+
 
 ```
 SELECT TOP 10 o.name, 
