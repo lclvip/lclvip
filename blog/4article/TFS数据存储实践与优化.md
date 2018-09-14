@@ -154,7 +154,9 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 
 **Windows构建环境**
  
-这种方式是将构建包存放至Windows共享目录中，减少了数据库占用的存储空间。同时这种方式需要额外准备文件存储服务器，且**仅支持Windows构建环境**。如果偿试将Linux agent上执行，会收到以下提示：`vsts OSX or Linux Agent Artifacts publish to file share 无法将来自 OSX 或 Linux 代理的项目发布到文件共享。可将项目类型更改为服务器或使用 Windows 代理`。
+这种方式是将构建包存放至Windows共享目录中，减少了数据库占用的存储空间。同时这种方式需要额外准备文件存储服务器，且**仅支持Windows构建环境**。如果偿试将Linux agent上执行，会收到以下提示：
+
+```vsts OSX or Linux Agent Artifacts publish to file share 无法将来自 OSX 或 Linux 代理的项目发布到文件共享。可将项目类型更改为服务器或使用 Windows 代理。```
 
 **OSX /Linux 构建环境**
 
@@ -166,7 +168,7 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 对于构建包的管理，还可以采用**终极方案**，引入 **Aftifact Repository（即前面所提的包管理器）**，将依赖包和开发中的构建包统一纳入 Aftifact Repository 进行管理，目前市面上有较多的方案，此处不在一一介绍，基本上所有的方案都可以和TFS CI/CD的流水线进行集成。这种方案大小团队都适用，如果一开始能规划一个可行的方案是最好不过的了。
 
 
-**TFS中的清理策略**
+**TFS 生成和发布的清理策略**
 
 在TFS CI/CD 流水线配置中，可以设置保留的周期和自动清理时清理的内容，如下图：
 
