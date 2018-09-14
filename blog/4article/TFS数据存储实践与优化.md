@@ -27,19 +27,22 @@
 
 ## 三、 版本库
 
-### 1、 将文档存放至版本库
+### 1、 将文档存放至TFS版本库
 
-### 看看在TFS中如何存储文档
 
 在TFS中，有两种版本控制系统：TFVC和Git，TFVC是传统的集中式管理方案，Git是分布式管理。Git的方式更适合于现代的企业，对于源码的存放也优先推荐使用Git。
 
+
 对于开发过程中的文档，建议采用专门的文档版本存储方案，如SharePoint或是其他方案。不具备此条件时，再考虑将文档存放至源码版本库。
+
 
 存放至源码版本库时,文档尽量使用文本格式，比如Markdown格式，这样文档修改后保存的是增量，并不会占用太多数据库存储空间。在TFS2017及以上版本，还可以采用内置的Wiki库来存放技术文档。
 
 如果确实需要将Office文档存放至TFS，建议优先考虑采用TFVC源码版本库，因为TFVC对于二进制文件有更好的性能。
 
+
 Git本身对二进制文件并无特别的优化，如果使用Git存储进制文件，可以使用Git LFS来获取更好的性能，但这需要客户端安装GitLFS扩展工具。
+
 
 这两这种方式都是将文档存至TFS服务器，区别在于：
 
@@ -47,10 +50,12 @@ Git本身对二进制文件并无特别的优化，如果使用Git存储进制�
 - 而GIt需要客户端安装Git LFS扩展。
 - 最大的区别当然就是集中式版本控制与分布式版本控制系统在使用上的区别了
 
+
 建议对存储目录根据实际的情况进行规划，规范文档存放的目录结构。
 
 
 **以下是对上面几种方案对比：**
+
 
 1）、   **使用SharePoint Server 2016** :
 
@@ -60,6 +65,7 @@ Git本身对二进制文件并无特别的优化，如果使用Git存储进制�
 
 NOTE： 外，如果是小团队，可以采用云方案，如Office365，或是其他厂商的云方案
 
+
 2）、   **使用TFS团队项目内的TFVC版本库**：
 
 适应于团队级别，且限于开发过程中的偏技术类的文档，无法在线查看、编辑。
@@ -67,11 +73,13 @@ NOTE： 外，如果是小团队，可以采用云方案，如Office365，或是
 
 **依赖的工具**： TFS Web Portal或是安装Team Explorer客户端工具来完成文档的管理
 
+
 3）、   **使用独立的TFS服务器存放文档**：
 
 适用于组织级别和团队级别的文档存放,当文档量较大，在不影源代码服务器的情况下可以把文档服务器独立出来。建议统一规划文档中心结构, 组织形式不必采用按多个TFS团队项目（指源TFS码服务器中的团队项目）的方式来组织,可根据产品、业务、领域划分团队项目，将多个团队的文档存放至同一个团队项目，根据目录结构设置各部门、各团队或是各项目组人员的权限.
 
 **使用的工具：**通过TFS Web Portal或是安装Team Explorer客户端工具来完成文档的管理
+
 
 4）、   **Git Large File Storage（LFS）**: 
 
@@ -79,11 +87,14 @@ NOTE： 外，如果是小团队，可以采用云方案，如Office365，或是
 
 NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可以，同样建议规划好文档目录结构。
 
+
 5）、   **TFS WIKI :**
 
 适应于团队级别（源码TFS服务器中的）或是组织级别（独立TFS文档服务器中的WIKI），建议存放开发过程中的偏技术类的文档。在TFS Web Portal 具有所见即所得的编辑方式，文档采用 Markdown 格式编写。可添加其他附件，图片使用 CRTL+V 直接粘贴到文档内容中（自动插入图片并上传），省去了手动保存图片并上传烦恼。Wiki同时也是一个Git仓库，可以像代码一样进行离线编辑、版本跟踪,在本地可以使用自己习惯的Markdown编辑文本。
 
+
 **如果有使用TFS，优先考虑使用 WIKI来保存技术类文档**
+
 
 **如果无法在组织级引入统一的文档解决方案，可以采用折衷方案:**
 
@@ -124,15 +135,17 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 
 在TFS的持续集成CI中，构建包的存储方式有两种： `Visual Studio Team Services/TFS Server` 和 `a file share`。
 
--   **Visual Studio Team Services/TFS Server**
+###  **Visual Studio Team Services/TFS Server**
 
 这种方式简单粗暴，是将构建包直接存放至TFS的后台数据库中。这种方式固然简单，但是**构建包比较大、团队规模较大、构建频率较高时**，数据库将迅速增长**，对于比较在意数据库的存储成本的团队或组织来说，这种存放方式变得不太合适
 
--   **a file share**
+###   **a file share**
  
 这种方式是将构建包存放至Windows共享目录中，减少了数据库占用的存储空间。同时这种方式需要额外准备文件存储服务器，且**仅支持Windows构建环境**。如果偿试将Linux agent上执行，会收到以下提示：`vsts OSX or Linux Agent Artifacts publish to file share 无法将来自 OSX 或 Linux 代理的项目发布到文件共享。可将项目类型更改为服务器或使用 Windows 代理`。
 
+
 在非Windows的构建环境中，我们需要考虑其他方案，**有两种可选方案**：ftp的方式和SSH的方式，FTP的方式会比较通用，对于Windows的构建环境也支持。SSH的方式针对纯Linux环境，纯Linux的构建环境建议采用这种方式。
+
 
 对于构建包的管理，还可以采用**终极方案**，引入 **Aftifact Repository（即前面所提的包管理器）**，将依赖包和开发中的构建包统一纳入 Aftifact Repository 进行管理，目前市面上有较多的方案，此处不在一一介绍，基本上所有的方案都可以和TFS CI/CD的流水线进行集成。这种方案大小团队都适用，如果一开始能规划一个可行的方案是最好不过的了。
 
@@ -142,9 +155,11 @@ NOTE：当然，如果文档量较少，直接使用git 存储库存放也是可
 
 Figure 1 TFS 生成和发布定期清理策略-集合级别
 
+
 ![](media/ffd79f6f3a640164f3205c1b6fc63b79.png) .
 
 Figure 2 发布保留策略-团队项目 级别
+
 
 ![](media/8693fba462de2d2ee50a25578a5988c9.png) .
 
@@ -153,11 +168,15 @@ Figure 3 生成清理内容配置
 
 ## 四、 测试相关文件
 
+
 在执行 手工测试（TestRun）时、触发CICD部署流水线后（测试结果、及代码分析结果）、使用TestManager工具（会产生图片、附件、录屏）、浏览器测试插件Test &Feedback（产生图片、附件、录屏） 等，所产生的数据都存储在数据库中，而且包括大量的二进制文件，会占用比较大的数据库存储空间，通常我们在TFS中可以配置这些数据保留的期限，如下图：
+
 
 ![](media/9fbb3a4883f44945fd89b19581381a20.png) .
 
+
 如果经过分析后（参考下面的TFS 数据占用分析），测试部分还是会占用很大一部分空间，可以使用专用的工具Tcmpt 清理。
+
 
 参考资料：
 
@@ -165,9 +184,11 @@ Figure 3 生成清理内容配置
 
 -   <http://blogs.microsoft.co.il/shair/2014/06/29/controlreduce-tfs-db-size/>
 
+
 ## 五、 TFS 数据占用分析
 
 当TFS数据库迅速增长时，TFS的备份文件也会随之而增长，同时会对数据库服务器和TFS备份文件服务器的存储空间会造成影响，如果剩余空间不多，但一时半会没法扩展磁盘容量时，我们需要分析究竟是哪些数据在占用空间。下面我们针对这个问题展开分析，试着找出这些数据，看是否能优化一下存储空间。可以按下面的步骤来分析：
+
 
 - 1、首先，使用Sql Server Management Studio（SMSS）连接到TFS数据库服务器，执行以下脚本，查看各集合库所占的空间：
 
@@ -189,6 +210,7 @@ and DB_NAME(database_id)<>'Tfs_Configuration' order by size desc
 ![image.png](attachments/image-bf72d987-42b5-47a7-a64b-05212fa58be2.png) .
 
 ![image.png](attachments/image-db901bc4-33dd-497c-8be7-60073a7cded7.png) .
+
 
 如所上图所示，通常是：**tbl_Content** 表占用比较大.
 
@@ -226,7 +248,12 @@ GROUP BY OwnerId
 ORDER BY 2 DESC
 ```
 
+结果如下图所示：
+
 ![image.png](attachments/image-bef5e2dc-c551-4c66-a7d8-86ac7e744e47.png) .
+
+
+可以看到 是FileContainer类型的数据占用较大空间
 
 
 - 5、 分析 tbl_Container 占用的空间
@@ -261,7 +288,7 @@ ORDER BY TotalSizeInMB DESC
 ![image.png](attachments/image-9c718660-81ed-471f-97e5-ed0468220415.png) .
 
 
-- 6、 最后还可以分析一下近两个年数据增长的情况
+- 6、 最后还可以分析一下近两年数据增长的情况
   
 ```
 select DATEPART(yyyy, CreationDate) as [year],
@@ -278,11 +305,13 @@ order by DATEPART(yyyy, CreationDate),
 
 ![image.png](attachments/image-18024c92-1068-40ef-93dc-1c10c9ec9e3a.png) .
 
+
 - 7 、通过上面的分析，我们大致可以确定是哪结数据占用了较大的空间，结合前面的TFS 流水线设置和测试文件保留策略设置，让TFS自动清理这部分数据。
+
 
 以上分析参考自以下资料：
 
-- https://mattyrowan.com/2014/04/02/need-help-tfs-tbl_content-table-and-database-growth-out-of-control/>
+- https://mattyrowan.com/2014/04/02/need-help-tfs-tbl_content-table-and-database-growth-out-of-control/
 
 - https://naveenalm.wordpress.com/2015/08/04/dar/
 
