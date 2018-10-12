@@ -100,7 +100,7 @@
 
 [关于我]()
   
-  * [新技术、新产品、新思维、一切新的东西](blog/fresh.md)
+  * [新技术、新产品、新思维、一切新的东西](blog/9about/fresh.md)
   * [我的疑问](blog/9about/qa.md)
   * [临时内容存放地](blog/9about/temp.md)
   * [关于我，我是谁？](blog/9about/about.md)
