@@ -51,26 +51,36 @@
 
 ## 工作时写的操作性文档
 
-**LEANSOFT SDE 标准开发环境**
+**LEANSOFT SDE 标准开发环境**  [首页链接](https://docs.devopshub.cn/mdwiki/#!docs/sde/index.md)
+
+- [安装 Windows 10 企业版 ](https://docs.devopshub.cn/mdwiki/#!./docs/sde/sde-01-install-windows10/index.md)
+- [安装和配置基于微软云平台的办公软件](https://docs.devopshub.cn/mdwiki/#!./docs/sde/sde-02-config-work-soft/index.md) 
+- [在 Windows 10 上安装  DontNet 开发环境](https://docs.devopshub.cn/mdwiki/#!./docs/sde/sde-03-install-dev-soft/index.md)
+- [ 在 Windows 10 上配置 Hyper-V ](https://docs.devopshub.cn/mdwiki/#!./docs/sde/sde-04-config-Hyper-V/index.md)
+- [在Windows10 上安装和激活 Docker for Windows ](https://docs.devopshub.cn/mdwiki/#!./docs/sde/sde-05-docker-for-windows/index.md)
   
-  * [导入代码 ](docs/md-devops-vsalm-hols/01-continuous-Integration/CI-01-import-code.md)
-  * [配置TFS构建](docs/md-devops-vsalm-hols/01-continuous-Integration/CI-02-config-build.md)
-  * [触发并验证TFS构建](docs/md-devops-vsalm-hols/01-continuous-Integration/CI-03-test-build.md)
+**TFS持续交付流水线动手实验(PartsUnlimited)**  [首页链接](https://docs.devopshub.cn/mdwiki/#!docs/tfs/pipeline/index.md)
+
+**练习1 持续集成**
+
+  * [导入代码 ](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/ci-01-import-code/index.md)
+  * [配置TFS构建](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/ci-02-config-build/index.md)
+  * [触发并验证TFS构建](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/ci-03-test-build/index.md)
  
  
-**微软DevOps解决方案**
+**练习2 持续发布**
   
-  * [修改构建，输出 Azure 资源管理模板](docs/md-devops-vsalm-hols/02-continuous-deployment/CD-01-edit-build.md)
-  * [创建TFS服务端点](docs/md-devops-vsalm-hols/02-continuous-deployment/CD-02-create-tfs-service-endpoint.md)
-  * [为Parts Unlimited 网站 创建一个Dev 环境的发布管道](docs/md-devops-vsalm-hols/02-continuous-deployment/CD-03-create-release-pip.md)
-  * [在发布管道中添加Staging环境和Production环境的部署任务](docs/md-devops-vsalm-hols/02-continuous-deployment/CD-04-create-release-pip-production-env.md)
+  * [修改构建，输出 Azure 资源管理模板](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-01-edit-build/index.md)
+  * [创建TFS服务端点](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-02-create-tfs-service-endpoint/index.md)
+  * [为Parts Unlimited 网站 创建一个Dev 环境的发布管道](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-03-create-release-pip/index.md)
+  * [在发布管道中添加Staging环境和Production环境的部署任务](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-04-create-release-pip-production-env/index.md)
 
   
 ## 2016年内容归档
  
   * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
-  * [2016年笔记](blog/0learn/note-personal/2016.md)
-  * [光环Act 培训笔记](blog/0learn/aura-acp-training.md)
+  * [2016年笔记](blog/0learn/note-work/2016.md) 
+  * [光环Act 培训笔记](blog/0learn/2016-6-aura-acp-training.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
   * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf)
