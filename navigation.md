@@ -38,7 +38,7 @@
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
   - - - -
-  * ### 读书笔记
+  * ### 读书笔记（外链）
   * [许宜铭《活出自己》读书笔记](http://www.jianshu.com/p/59d84493a3ed)
   * [许宜铭《原来可以这样爱》开启了我对两性关系的全新认识](http://www.jianshu.com/p/563d79b38db7)
   * [苏绚慧 《终于学会爱自己》读书笔记](http://www.jianshu.com/p/fed94f5d1a58)
@@ -71,7 +71,7 @@
 [生活]()
 
   * ### 生活中的个人笔记
-  * [2017年笔记](blog/0learn/note-personal/2017.md) 
+  * [2018年笔记](blog/0learn/note-personal/2017.md) 
   * [2016-2017笔记](blog/0learn/note-personal/2016-2017.md)  
   * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
   
