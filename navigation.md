@@ -29,7 +29,7 @@
   * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
   * ### 其他
   * [人生十项 模板](blog/1life/人生十项-模板.md)
-  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship)
+  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship.md)
   * ### 2017-11
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
@@ -61,7 +61,7 @@
   - - - -
   * ### 心理学
   * [人生十项 模板](blog/1life/人生十项-模板.md)
-  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship)
+  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship.md)
   
 [生活]()
 
