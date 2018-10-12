@@ -19,8 +19,14 @@
 
 [原创]()
 
-  * ### 2018
+  * ### 2018（本站）
   * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](blog/4article/yoTeam.md)
+  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化)
+  * ### 微信公众号
+  * [DevOps教练是个什么鬼？我如何成长为DevOps教练？（转）](https://mp.weixin.qq.com/s/bC0kwHVj5KdKOZ47-xyZNw)
+  * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
+  * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
+  * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
   * ### 2017-11
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档](blog/4article/docs-mdwiki.md)
