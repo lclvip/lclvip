@@ -69,6 +69,7 @@
   * [苏绚慧 《终于学会爱自己》读书笔记](http://www.jianshu.com/p/fed94f5d1a58)
   * [脑图：人性---趋乐避苦的分解](http://naotu.baidu.com/file/efe82902053853b7f7d868c3d3218859?token=bde38cd6b4d8b6ec%EF%BB%BF%EF%BB%BF)
   
+------------------------------------------------------------------------------------------------
 
 ## 工作时写的操作性文档
 
@@ -96,6 +97,7 @@
   * [为Parts Unlimited 网站 创建一个Dev 环境的发布管道](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-03-create-release-pip/index.md)
   * [在发布管道中添加Staging环境和Production环境的部署任务](https://docs.devopshub.cn/mdwiki/#!./docs/tfs/pipeline/cd-04-create-release-pip-production-env/index.md)
 
+------------------------------------------------------------------------------------------------
   
 ## 2016年内容归档
  
@@ -107,6 +109,7 @@
   * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf)
   * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md)
 
+------------------------------------------------------------------------------------------------
 
 # 所有链接
 
@@ -154,5 +157,8 @@
 
 ------------------------------------------------------------------------------------------------
 
-  
+  到底啦~啦~啦,
 
+  [我是谁 ~_~?, 不告诉你！](blog/9about/about.md)
+   
+  *最后更新时间：2018年10月12*
