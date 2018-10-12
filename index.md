@@ -4,20 +4,50 @@
 
 ## 最近更新内容
 
+  * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](blog/4article/yoTeam.md)
+  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化.md)
+  - - - -
+  #### 发布到微信公众号的文章
+  * [DevOps教练是个什么鬼？我如何成长为DevOps教练？（转）](https://mp.weixin.qq.com/s/bC0kwHVj5KdKOZ47-xyZNw)
+  * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
+  * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
+  * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
   * [关系](blog/1life/relationship.md)
-
+  
+## 2017 年更新
   * [值得期待的一些游戏-xb](blog/3games/like-games.md) 
   * [xbox One 游戏主机的一切](blog/3games/xbox1s.md) 
   * [2017年工作上的笔记](blog/0learn/note-work/2017.md)
   * [2017年个人生活上的笔记](blog/0learn/note-personal/2017.md)  
   * [2016-2017个人生活上的笔记](blog/0learn/note-personal/2016-2017.md)  
-  * [工具或小技巧](1life/tools.md)
+  * [工具或小技巧](blog/1life/tools.md)
  
-## 原创内容
+## 原创内容归档
+### 2018（本站）
+  * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](blog/4article/yoTeam.md)
+  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化.md)
+  - - - -
+### 微信公众号
+  * [DevOps教练是个什么鬼？我如何成长为DevOps教练？（转）](https://mp.weixin.qq.com/s/bC0kwHVj5KdKOZ47-xyZNw)
+  * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
+  * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
+  * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
+  - - - -
+  ### 其他
+  * [ 精益和敏捷软件开发.ppt （于2015年整理）](http://pan.baidu.com/s/1hszy4OO)
+  * [人生十项 模板](blog/1life/人生十项-模板.md)
+  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship.md)
+  - - - -
+  ### 2017
+  * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
+  * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
+  - - - -
+  ### 读书笔记（外链）
   * [许宜铭《活出自己》读书笔记](http://www.jianshu.com/p/59d84493a3ed)
   * [许宜铭《原来可以这样爱》开启了我对两性关系的全新认识](http://www.jianshu.com/p/563d79b38db7)
   * [苏绚慧 《终于学会爱自己》读书笔记](http://www.jianshu.com/p/fed94f5d1a58)
   * [脑图：人性---趋乐避苦的分解](http://naotu.baidu.com/file/efe82902053853b7f7d868c3d3218859?token=bde38cd6b4d8b6ec%EF%BB%BF%EF%BB%BF)
+  
 
 ## 工作时写的操作性文档
 
