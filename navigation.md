@@ -27,6 +27,9 @@
   * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
   * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
   * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
+  * ### 其他
+  * [人生十项 模板](blog/1life/人生十项-模板.md)
+  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship)
   * ### 2017-11
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
@@ -39,7 +42,11 @@
 [笔记]()
 
   * ###  工作笔记
+ * [tfs-db-datasize-analysis](blog/0learn/note-work/tfs%2Ddb%2Ddatasize%2Danalysis.md)
+  * [2018 年笔记](blog/0learn/note-work/2018.md)
+  * [git tfvc tools](blog/0learn/note-work/git-tfvc-tools.md)
   * [2017年笔记](blog/0learn/note-work/2017.md)
+  * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
   * [2016年笔记](blog/0learn/note-work/2016.md) 
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
@@ -54,6 +61,7 @@
   - - - -
   * ### 心理学
   * [人生十项 模板](blog/1life/人生十项-模板.md)
+  * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship)
   
 [生活]()
 
@@ -63,6 +71,7 @@
   * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
   
   * ### 生活中的一切
+  * [豆瓣主页](https://www.douban.com/people/liminany/)
   * [影视列表](blog/1life/movie.md)
   * [工具或小技巧](blog/1life/tools.md)
 
