@@ -28,9 +28,10 @@
   * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
   * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
   * ### 其他
+  * [ 精益和敏捷软件开发.ppt （于2015年整理）](http://pan.baidu.com/s/1hszy4OO)
   * [人生十项 模板](blog/1life/人生十项-模板.md)
   * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship.md)
-  * ### 2017-11
+  * ### 2017
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
   * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
   - - - -
