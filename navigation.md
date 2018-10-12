@@ -21,7 +21,7 @@
 
   * ### 2018（本站）
   * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](blog/4article/yoTeam.md)
-  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化)
+  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化.md)
   * ### 微信公众号
   * [DevOps教练是个什么鬼？我如何成长为DevOps教练？（转）](https://mp.weixin.qq.com/s/bC0kwHVj5KdKOZ47-xyZNw)
   * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
