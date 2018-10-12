@@ -29,7 +29,7 @@
   * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
   * ### 2017-11
   * [2017 广州 Gdevops 峰会 ](blog/4article/gz-GDevOps.2017.md)
-  * [DevOps时代的文档](blog/4article/docs-mdwiki.md)
+  * [DevOps时代的文档（编写中）](blog/4article/docs-mdwiki.md)
   - - - -
   * [许宜铭《活出自己》读书笔记](http://www.jianshu.com/p/59d84493a3ed)
   * [许宜铭《原来可以这样爱》开启了我对两性关系的全新认识](http://www.jianshu.com/p/563d79b38db7)
@@ -49,14 +49,11 @@
   - - - -
   * ### 敏捷实践
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
-  * [2016-Ninetowns-我的KanBan&Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
+  * [2016-Ninetowns 我的KanBan Leangoo 内训资料](blog/0learn/2016-Ninetowns-我的KanBan&Leangoo 内训资料.pdf) 
   * [2016-Ninetowns-从问题出发-我的内部分享](blog/0learn/2016-9-Ninetowns-从问题出发-我的内部分享.md) 
   - - - -
   * ### 心理学
-  * [人生](blog/xingli/notfound.md)
-  - - - -
-  * ### 英语
-  * [2017年 单词](blog/0learn/english/words-2017.md)
+  * [人生十项 模板](blog/1life/人生十项-模板.md)
   
 [生活]()
 
