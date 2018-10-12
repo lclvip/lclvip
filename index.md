@@ -12,7 +12,6 @@
   * [TFS数据存储优化实践](https://mp.weixin.qq.com/s/x71CLB-rQaomtAplX8oo5g)
   * [产品经理必读 – 产品失败的10大根源（译）](https://mp.weixin.qq.com/s/lri6GLDlo1OazEQW7haD7g)
   * [使用yoteam自动创建TFS流水线](https://mp.weixin.qq.com/s/pIYPMnTu8Y0QBrRsiEtknQ)
-  * [关系](blog/1life/relationship.md)
   
 ## 2017 年更新
   * [值得期待的一些游戏-xb](blog/3games/like-games.md) 
