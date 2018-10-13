@@ -115,7 +115,7 @@ https://devopshub.cn/2017/01/06/markdown-rest-release-pipeline/
 http://www.pandoc.org/diagram.jpg
 
 
-- 转换命令：`pandoc +RTS -V0 -RTS $RstFile -f rst -t markdown -o $MDFile`，
+- 转换命令：`pandoc +RTS -V0 -RTS $RstFile -f rst -t markdown -o $MDFile`
 
 使用这个命令，我们很快就完成了格式的转换。另外，可以看看这篇文章：[DevOps文档中心的技术实践演进](https://mp.weixin.qq.com/s?__biz=MzA5NzU3Njc5Mw==&mid=2651201876&idx=1&sn=b374dc2a93c6498eb80f2f6298cb02d2&chksm=8b6c3362bc1bba74c8d39569e6a06c2201067793139b1becc4d0fa3c5bab79bbf670d13aca50&mpshare=1&scene=1&srcid=0107gfrrFLsThvVmcfF4KLrX#rd)
 
