@@ -4421,7 +4421,8 @@ function googlemapsReady() {
     var publicMethods = {
         mdwikiExtention: function () {
 
-            addNextPreArea();           
+            addNextPreArea(); 
+            gitment.render('container');          
             return;
         }
     };
@@ -4504,7 +4505,7 @@ function googlemapsReady() {
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
-    var gitment = new Gitment({
+    gitment = new Gitment({
     id: location.href.replace("#!",""), // 可选。默认为 location.href
     owner: 'liminany',
     repo: 'm',
@@ -4513,7 +4514,7 @@ function googlemapsReady() {
         client_secret: '6d27bd1469d52f97f1b37ce85dd31f208e5f7de0',
     },
     })
-    gitment.render('container')
+    
     </script>
 </body>
 </html>
