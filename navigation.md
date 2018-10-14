@@ -46,6 +46,7 @@
   * [苏绚慧 《终于学会爱自己》读书笔记](http://www.jianshu.com/p/fed94f5d1a58)
   * [脑图：人性---趋乐避苦的分解](http://naotu.baidu.com/file/efe82902053853b7f7d868c3d3218859?token=bde38cd6b4d8b6ec%EF%BB%BF%EF%BB%BF)
   
+
 [笔记]()
 
   * ###  工作笔记
