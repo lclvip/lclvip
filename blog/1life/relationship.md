@@ -13,7 +13,7 @@
 
 **根据社会心理学的相关研究，可以将自我暴露，分为以下的四个水平层次。**
 
-![](http://mmbiz.qpic.cn/mmbiz/THB8Ntaveudjn9epDAZcLbP2rLrAuZd3Rf909t5C0Cd0YpXicTaroH19eoqU1WpOhLPxFKfjrvvrdIf5LKGiafUw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![](http://mmbiz.qpic.cn/mmbiz/THB8Ntaveudjn9epDAZcLbP2rLrAuZd3Rf909t5C0Cd0YpXicTaroH19eoqU1WpOhLPxFKfjrvvrdIf5LKGiafUw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1) .
 
 
 - 第一层：最低水平的一层是个人的兴趣、爱好等；
