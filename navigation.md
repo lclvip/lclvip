@@ -97,7 +97,7 @@
 [游戏]()
 
   * [xbox One 游戏主机的一切](blog/3games/xbox1s.md)  
-  * [串流游戏方案](blog/3games/stream%2Dgame.md)
+  * [串流游戏方案](blog/3games/streamgame.md)
   * [记录一些喜欢的游戏](blog/3games/like-games.md)
   * [xbox360 主机游戏](blog/3games/xbox360.md)  
 
