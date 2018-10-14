@@ -144,7 +144,7 @@
 - [ 爱的觉醒读书笔记](blog/2book/爱的觉醒-remark.md)
 - [ 关于手柄游戏的一切，包括PC游戏、新兴的 IOS MFI手柄游戏、Android平台的手柄游戏（手机端、盒子、智能电视、主机）、PC端手柄游戏](blog/3games/controller-games.md)
 - [ 关于游戏的一些一切文章,不定期更新](blog/3games/like-games.md)
-- [掌机、游戏手机、串流至手机或平板](blog/3games/stream%2Dgame.md)
+- [掌机、游戏手机、串流至手机或平板](blog/3games/streamgame.md)
 - [ xbox api 相关开发资源汇总](blog/3games/xbox1-api.md)
 - [ 关于Xbox One游戏主机的一切](blog/3games/xbox1s.md)
 - [ xbox360 主机的一切，包括入门、破解、自制系统、个人喜欢的游戏资源](blog/3games/xbox360.md)
