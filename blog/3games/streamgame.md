@@ -29,6 +29,14 @@
 
 ## 黑鲨游戏手机
 
+## 摩奇手机
+
+I7s, 2500+
+G3, 类似 NS
+
+https://tieba.baidu.com/p/5850977230
+
+https://baijiahao.baidu.com/s?id=1608013365513116706&wfr=spider&for=pc
 
 ## 努比亚红魔游戏手机
 
