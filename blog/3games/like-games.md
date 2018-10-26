@@ -2,6 +2,11 @@
 
 ## 2017至2018年值得关注的Xbox游戏
 
+## steam
+
+异界遗迹: https://store.steampowered.com/app/911010/Farplane_Relic/
+基因特工：https://store.steampowered.com/app/851800/G2_Fighter/
+
 ## 一些新闻
 
 - [2018年 我们最期待的十款独立游戏](http://tech.sina.com.cn/roll/2017-12-17/doc-ifyptfcn1183424.shtml)
