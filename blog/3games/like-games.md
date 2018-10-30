@@ -81,7 +81,9 @@ PS：本来挺可爱一妹妹，结尾被弄的黑化了很讨厌，于是我果
 
 - [Viktor 模版射击 好评 推荐](https://store.steampowered.com/app/296730/Viktor/)
 
-- [Glass_Wing](https://store.steampowered.com/app/382570/Glass_Wing/)
+游戏还是不错的，但是如果你用手柄玩，那就是在给自己增加难度了，以xboxone手柄来说，左摇杆控制移动，右摇杆是控制设计方向，但是恶心的是，你还的用右手去按a来跳跃。。。加上游戏里怪的移动速度，那反应和操作别扭程度不是一般人能承受的，至少我彻底被征服了，所以这个游戏还是用键盘鼠标来玩比较好。场景方面是比较简单的flsh风格，可破坏的箱子和桌子什么的零零散散有几个。其他就没了，游戏素质还是不错的，可能限于开发资金吧。
+
+- [Glass_Wing ACT ](https://store.steampowered.com/app/382570/Glass_Wing/)
 
 
 
