@@ -40,6 +40,10 @@ Techwars 系列游戏中新的 Deathmatch 模式为你带来了巨大机甲的�
 
 [Crispy Chicken 2D视角刷刷游戏 本地双人](https://store.steampowered.com/app/546380/Crispy_Chicken/)
 
+[Babel_Choice 中文](https://store.steampowered.com/app/430170/Babel_Choice/)
+
+《巴别塔：抉择》是一款2D动作冒险类的Roguelike游戏，同时融合了RPG和射击游戏的要素。玩家将在游戏中扮演恶魔公爵之子亚历山大勇闯危机四伏、变幻莫测的魔塔。
+
 [Neon_Arena 双摇杆射击](https://store.steampowered.com/app/556010/Neon_Arena/)
 
 《霓虹竞技场》是一款生存射击游戏。游戏背景设定在未来的2243年，玩家将一个人守住能量球，防止被其他人抢夺。
