@@ -36,6 +36,9 @@ NOTE:  文章内容来源于网络，经过小篇加工总结汇总，难免有�
 
 [XboxOne主机跨服/绑卡教程及各服绑卡信息汇总](https://tieba.baidu.com/p/5280109624?share=9105&fr=share&see_lz=0&sfc=copy&client_type=2&client_version=8.9.8.0&st=1510021369&unique=F36159E84D02924BF15AC00A32D31300&red_tag=3149636983)
 
+## 强烈推荐微信比价助手小程序
+
+搜索 **Xbox比价助手** 即可。在这个小程序里面可以查看打折游戏、中文游戏、游戏成就，还可以关注喜欢的游戏。非常好用的一款免费工具。比价助手有一个微信群，如果想加此微信群，先加上面的QQ群，进群后在推荐进微信群。
 
 ## 相关网站资源和工具
 
@@ -78,6 +81,7 @@ PC端安装，[PcSenderSetup](http://download.waxrain.com/AirPinPcSender/PcSende
 [Android安卓版APK,可直接下载，来自Google应用商店](https://storage.evozi.com/apk/dl/16/09/05/com.microsoft.xboxone.smartglass.apk?h=MbS28mJfWoHu6poMl2qpHA&t=1513661304)
 
 #### 目前我是这样玩的：
+
 - 买回来后，升级系统，大概 1.6G左右的更新
 
 - 登陆微软live帐号，这个帐号区域是中国，无法迁移。操作过程中会要选择【金会员试用】订阅，注意选择
