@@ -40,7 +40,7 @@ NOTE:  文章内容来源于网络，经过小篇加工总结汇总，难免有�
 |  [Xbox Social ](https://account.xbox.com/zh-hk/Social) |  港服社交动态页面   |   [家庭共享设置](https://account.microsoft.com/family/?lang=zh-TW)   |   适用两个帐号的情况（国服一个、外服一个）  |     |     |    |     |
 |  [xbox 帐号 Profile](https://account.xbox.com/zh-hk/Profile) |  港服   | [xbox 官方论坛](https://forums.xbox.com/zh-cn/home)   |     |     |     |    |     |
 |  [xbox 帐号迁移](https://live.xbox.com/zh-HK/AccountMigration) |   建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏  |    |     |     |     |    |     |
-|  [绑定信用卡页面](https://account.microsoft.com/billing/payments) |  点 **新增付款选项**   |    |     |     |     |    |     |
+|  |    |     |     |     |    |     |
 |  [微软Live帐号profile](https://account.microsoft.com/profile/) |  个人资料修改总入口-包括Xbox资料   |    |     |     |     |    |     |
 
 - 
