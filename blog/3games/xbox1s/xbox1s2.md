@@ -31,15 +31,15 @@ NOTE:  文章内容来源于网络，经过小篇加工总结汇总，难免有�
 
 ## 相关网站资源和工具
 
-| 链接| 说明|  链接| 说明|链接| 说明|  链接| 说明|
-| - | :-: | -: | -: |  -: | -: | -: | -: | 
+| 链接| 说明|  链接| 说明|链接| 说明|  
+| - | :-: | -: | -: |  -: | -: | 
 |  [MS搜索游戏](https://www.microsoft.com/zh-hk/search/result.aspx?q=The+Surge&form=MSHOME) |   MS 香港游戏搜索    |  [Xbox 游戏官网](https://www.xbox.com/zh-CN/games/xbox-one/home)   |   国行   |       [绑定信用卡页面](https://account.microsoft.com/billing/payments) |  点 **新增付款选项**  |     |
-|  [Xbox游戏搜索](https://www.xbox.com/en-US/games/xbox-one?xr=shellnav) |  Xbox 美区游戏搜索 | [xbox 保修注册](https://support.xbox.com/zh-CN/my-account/warranty-and-service/xbox-warranty-information)   |  注册的时候提示电话号码无效，弄了个85+8位号码就可以了，随便弄了香港的号码   |  [xboxdvr ](http://xboxdvr.com/gamer/lixiaominghk/videos)  | 获取XBOX录制的视频和截图    |  [Xbox游戏比价网站](http://www.xbox-now.com/zh/news)   |    |
-|  [最新游戏](https://www.microsoft.com/zh-hk/store/new/games/xbox?s=store) |  xbox 港区   | [取消自动续订 ](https://account.microsoft.com/services/)   |  金会员和XGP，点管理->取消自动续约   |   [Xbox早知道](http://www.yxzzd.com/)   |     |
-|  [最新游戏](https://www.microsoft.com/en-us/store/new/games/xbox?s=store) |  xbox 美区   | - [金会员折扣游戏](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)   |   港服金会员优惠游戏- |   [Xbox比价小助手-微信小程序，见下图](https://tieba.baidu.com/p/5455514797)  |     |
-|  [Xbox Social ](https://account.xbox.com/zh-hk/Social) |  港服社交动态页面   |   [家庭共享设置](https://account.microsoft.com/family/?lang=zh-TW)   |   适用两个帐号的情况（国服一个、外服一个）  |     |     |
-|  [xbox 帐号 Profile](https://account.xbox.com/zh-hk/Profile) |  港服   | [xbox 官方论坛](https://forums.xbox.com/zh-cn/home)   |     |     |     |
-|  [xbox 帐号迁移](https://live.xbox.com/zh-HK/AccountMigration) |   建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏  |   [微软Live帐号profile](https://account.microsoft.com/profile/) |  个人资料修改总入口-包括Xbox资料      |     |     |
+|  [Xbox游戏搜索](https://www.xbox.com/en-US/games/xbox-one?xr=shellnav) |  Xbox 美区游戏搜索 | [xbox 保修注册](https://support.xbox.com/zh-CN/my-account/warranty-and-service/xbox-warranty-information)   |  注册的时候提示电话号码无效，弄了个85+8位号码就可以了，随便弄了香港的号码   |  [xboxdvr ](http://xboxdvr.com/gamer/lixiaominghk/videos)  | 获取XBOX录制的视频和截图    |  
+|  [最新游戏](https://www.microsoft.com/zh-hk/store/new/games/xbox?s=store) |  xbox 港区   | [取消自动续订 ](https://account.microsoft.com/services/)   |  金会员和XGP，点管理->取消自动续约   |   [Xbox早知道](http://www.yxzzd.com/)   |   Xbox早知道  |
+|  [最新游戏](https://www.microsoft.com/en-us/store/new/games/xbox?s=store) |  xbox 美区   | - [金会员折扣游戏](https://www.xbox.com/zh-HK/live/deals-with-gold?xr=shellnav)   |   港服金会员优惠游戏- |   [Xbox比价小助手](https://tieba.baidu.com/p/5455514797)  |   微信小程序  |
+|  [Xbox Social ](https://account.xbox.com/zh-hk/Social) |  港服社交动态页面   |   [家庭共享设置](https://account.microsoft.com/family/?lang=zh-TW)   |   适用两个帐号的情况（国服一个、外服一个）  | [xbox 帐号迁移](https://live.xbox.com/zh-HK/AccountMigration) |   建议迁到香港，迁不了建议新注册个帐号，用来买外服游戏      |
+|  [xbox 帐号 Profile](https://account.xbox.com/zh-hk/Profile) |  港服   | [xbox 官方论坛](https://forums.xbox.com/zh-cn/home)   |   [Xbox游戏比价网站](http://www.xbox-now.com/zh/news)    |   [微软Live帐号profile](https://account.microsoft.com/profile/) |  个人资料修改总入口-包括Xbox资料      |
+
 
  
 
