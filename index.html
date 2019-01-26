@@ -4507,7 +4507,7 @@ function googlemapsReady() {
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
     gitment = new Gitment({
-    id: location.href.replace("#!",""), // 可选。默认为 location.href
+    id: location.hash.replace("#!",""),//location.href.replace("#!",""), // 可选。默认为 location.href
     owner: 'liminany',
     repo: 'm',
     oauth: {
