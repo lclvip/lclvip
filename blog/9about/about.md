@@ -14,6 +14,7 @@ Highlights:
 -  8 years’ experience in IT/Software Development field
 -  4 years’ project management and Team Foundation Server 
 -  PMI Agile Certified Practitioner (PMI-ACP) 
+-  Certified Scrum Master(CSM) 
 
 Project Experience:
 
